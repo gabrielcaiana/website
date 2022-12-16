@@ -1,3 +1,22 @@
+<script setup>
+useHead({
+  titleTemplate: (title) =>
+    title !== 'Gabriel Caiana' ? `${title} · Gabriel Caiana` : title,
+  htmlAttrs: {
+    lang: 'pt-br',
+  },
+  bodyAttrs: {},
+  meta: [
+    {
+      charset: 'utf-8',
+    },
+  ],
+})
+</script>
+
 <template>
-  <div class="bg-red-300 h-screen">hello world</div>
+  <NuxtLayout>
+    <NuxtLoadingIndicator />
+    <NuxtPage />
+  </NuxtLayout>
 </template>
