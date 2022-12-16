@@ -10,6 +10,8 @@ useHead({
   ],
 })
 
+const { projects } = await $fetch('/api/algolia/projects')
+
 const posts = ref([
   {
     label: 'Blog Post',
@@ -26,23 +28,7 @@ const posts = ref([
   },
 ])
 
-const projects = ref([
-  {
-    label: 'Nuxt JS',
-    title: 'NuxtBnB',
-    description: 'Clone do AirBnB utilizando o nuxtjs',
-  },
-  {
-    label: 'Nuxt Js',
-    title: 'Receitas online',
-    description: 'Sistema para a publicação e gerenciamento de receitas online',
-  },
-  {
-    label: 'Nuxt Js',
-    title: 'Nuxt Finance',
-    description: ' Gerenciamento de entradas e controle de gastos .',
-  },
-])
+console.log(projects)
 </script>
 
 <template>
@@ -62,7 +48,7 @@ const projects = ref([
 
     <section>
       <h2 class="text-3xl font-medium mb-6 pb-3 border-b border-neutral-800">
-        Blog Posts
+        Posts Recentes
       </h2>
       <div class="flex flex-col gap-[48px]">
         <Card
@@ -84,9 +70,11 @@ const projects = ref([
         <Card
           v-for="(project, index) in projects"
           :key="index"
-          :label="project.label"
-          :title="project.title"
+          :type="project.type"
+          :title="project.name"
           :description="project.description"
+          :image="project.image"
+          :url="project.url"
         />
       </div>
     </section>

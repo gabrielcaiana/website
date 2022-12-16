@@ -1,6 +1,6 @@
 <script setup>
-defineProps({
-  label: {
+const props = defineProps({
+  type: {
     type: String,
     required: true,
   },
@@ -12,19 +12,30 @@ defineProps({
     type: String,
     required: true,
   },
+  image: {
+    type: String,
+    required: true,
+  },
+  url: {
+    type: String,
+    required: true,
+  },
 })
 </script>
+
 <template>
-  <nuxt-link to="/">
+  <a :href="url" target="_blank">
     <div class="flex flex-col md:flex-row gap-4">
-      <div
-        class="w-100 md:min-w-[300px] h-[150px] bg-neutral-500 rounded-md"
-      ></div>
+      <img
+        :src="image"
+        :alt="title"
+        class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+      />
       <div class="flex flex-col">
-        <span class="text-red-400">{{ label }}</span>
+        <span class="text-red-400">{{ type }}</span>
         <span class="text-xl font-medium mb-2">{{ title }}</span>
         <p class="text-neutral-400">{{ description }}</p>
       </div>
     </div>
-  </nuxt-link>
+  </a>
 </template>

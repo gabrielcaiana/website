@@ -6,6 +6,10 @@ export default defineNuxtConfig({
   css: ['@/assets/css/tailwind.css'],
   components: [{ path: '@/components', pathPrefix: false }],
   modules: ['nuxt-icon'],
+  runtimeConfig: {
+    algoliaAppId: process.env.ALGOLIA_APP_ID,
+    algoliaApiKey: process.env.ALGOLIA_API_KEY,
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
