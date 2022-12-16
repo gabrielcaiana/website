@@ -1,3 +1,16 @@
+<script setup>
+useHead({
+  title: 'Início',
+  meta: [
+    {
+      name: 'description',
+      description:
+        'Sou um engenheiro de software de 26 anos, especializado em tecnologias Javascript, Vue, Web Performance e design.',
+    },
+  ],
+})
+</script>
+
 <template>
   <main class="flex flex-col gap-[80px]">
     <section>
@@ -7,7 +20,7 @@
       <p>
         Sou um engenheiro de software de 26 anos, especializado em tecnologias
         Javascript, Vue, Web Performance e design.
-        <nuxt-link to="/about" class="text-blue-400 underline"
+        <nuxt-link to="/about" class="text-blue-300 font-medium underline"
           >Leia mais <Icon name="ph:arrow-right" size="14"
         /></nuxt-link>
       </p>

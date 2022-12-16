@@ -5,7 +5,6 @@ useHead({
   htmlAttrs: {
     lang: 'pt-br',
   },
-  bodyAttrs: {},
   meta: [
     {
       charset: 'utf-8',
