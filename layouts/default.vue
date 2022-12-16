@@ -1,8 +1,6 @@
 <template>
-  <header class="p-4 mb-4 bg-neutral-100">
-    <nuxt-link to="/">Gabriel Caiana</nuxt-link>
-  </header>
-  <div>
+  <Header />
+  <div class="container mx-auto max-w-[52rem] my-10 text-white">
     <slot />
   </div>
 </template>

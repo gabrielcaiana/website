@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   css: ['@/assets/css/tailwind.css'],
   components: [{ path: '@/components', pathPrefix: false }],
+  modules: ['nuxt-icon'],
   postcss: {
     plugins: {
       tailwindcss: {},
