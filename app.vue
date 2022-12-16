@@ -1,4 +1,8 @@
 <script setup>
+import global from '~/utils/global'
+import getSocialMeta from '~/utils/metatags'
+const meta = getSocialMeta(global)
+
 useHead({
   titleTemplate: (title) =>
     title !== 'Gabriel Caiana' ? `${title} · Gabriel Caiana` : title,
@@ -6,8 +10,16 @@ useHead({
     lang: 'pt-br',
   },
   meta: [
+    ...meta,
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'format-detection', content: 'telephone=no' },
+    { name: 'apple-mobile-web-app-capable', content: 'yes' },
+  ],
+  link: [
     {
-      charset: 'utf-8',
+      rel: 'canonical',
+      href: global.url,
     },
   ],
 })
