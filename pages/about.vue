@@ -40,7 +40,7 @@ useHead({
       </div>
     </section>
 
-    <section>
+    <section class="ml-4">
       <ul
         class="underline text-blue-300 font-medium list-disc flex flex-col gap-3"
       >
