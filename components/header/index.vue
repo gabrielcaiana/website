@@ -1,6 +1,6 @@
 <template>
   <header
-    class="pt-8 pb-4 px-6 text-white border-b border-neutral-800 flex justify-between"
+    class="pt-8 pb-4 px-6 text-white border-b border-neutral-800 flex justify-between items-center"
   >
     <nuxt-link to="/" class="font-medium">Gabriel Caiana</nuxt-link>
     <div class="flex gap-3">
