@@ -9,6 +9,40 @@ useHead({
     },
   ],
 })
+
+const posts = ref([
+  {
+    label: 'Blog Post',
+    title: 'Como adicionar a análise de pacotes do webpack em seu projeto nuxt',
+    description:
+      ' Visualize o tamanho dos arquivos de saída do webpack com um mapa de árvore interativo dentro do seu projeto com nuxtjs.',
+  },
+  {
+    label: 'Blog Post',
+    title:
+      'Entendendo as 10 Heurísticas de Nielsen para melhorar a experiência do usuário',
+    description:
+      'As 10 Heurísticas de Nielsen foram criadas em 1994 pelo cientista da computação Jakob Nielsen, também conhecido como o pai da usabilidade. Ao lado de Don Norman, ele criou posteriormente a Nielsen Norman Group, renomada empresa americana de consultoria em interface e experiência de usuário.',
+  },
+])
+
+const projects = ref([
+  {
+    label: 'Nuxt JS',
+    title: 'NuxtBnB',
+    description: 'Clone do AirBnB utilizando o nuxtjs',
+  },
+  {
+    label: 'Nuxt Js',
+    title: 'Receitas online',
+    description: 'Sistema para a publicação e gerenciamento de receitas online',
+  },
+  {
+    label: 'Nuxt Js',
+    title: 'Nuxt Finance',
+    description: ' Gerenciamento de entradas e controle de gastos .',
+  },
+])
 </script>
 
 <template>
@@ -31,42 +65,13 @@ useHead({
         Blog Posts
       </h2>
       <div class="flex flex-col gap-[48px]">
-        <div class="flex flex-col md:flex-row gap-4">
-          <div
-            class="w-100 md:min-w-[300px] h-[150px] bg-neutral-500 rounded-md"
-          ></div>
-          <div class="flex flex-col">
-            <span class="text-red-400">Blog Post</span>
-            <span class="text-xl font-medium mb-2"
-              >Como adicionar a análise de pacotes do webpack em seu projeto
-              nuxt</span
-            >
-            <p class="text-neutral-400">
-              Visualize o tamanho dos arquivos de saída do webpack com um mapa
-              de árvore interativo dentro do seu projeto com nuxtjs.
-            </p>
-          </div>
-        </div>
-
-        <div class="flex flex-col md:flex-row gap-4">
-          <div
-            class="w-100 md:min-w-[300px] h-[150px] bg-neutral-500 rounded-md"
-          ></div>
-          <div class="flex flex-col">
-            <span class="text-red-400">Blog Post</span>
-            <span class="text-xl font-medium mb-2"
-              >Entendendo as 10 Heurísticas de Nielsen para melhorar a
-              experiência do usuário
-            </span>
-            <p class="text-neutral-400">
-              As 10 Heurísticas de Nielsen foram criadas em 1994 pelo cientista
-              da computação Jakob Nielsen, também conhecido como o pai da
-              usabilidade. Ao lado de Don Norman, ele criou posteriormente a
-              Nielsen Norman Group, renomada empresa americana de consultoria em
-              interface e experiência de usuário.
-            </p>
-          </div>
-        </div>
+        <Card
+          v-for="(post, index) in posts"
+          :key="index"
+          :label="post.label"
+          :title="post.title"
+          :description="post.description"
+        />
       </div>
     </section>
 
@@ -76,42 +81,13 @@ useHead({
       </h3>
 
       <div class="flex flex-col gap-[48px]">
-        <div class="flex flex-col md:flex-row gap-4">
-          <div
-            class="w-100 md:min-w-[300px] h-[150px] bg-neutral-500 rounded-md"
-          ></div>
-          <div class="flex flex-col">
-            <span class="text-red-400">Nuxt JS</span>
-            <span class="text-xl font-medium mb-2">NuxtBnB</span>
-            <p class="text-neutral-400">Clone do AirBnB utilizando o nuxtjs</p>
-          </div>
-        </div>
-
-        <div class="flex flex-col md:flex-row gap-4">
-          <div
-            class="w-100 md:min-w-[300px] h-[150px] bg-neutral-500 rounded-md"
-          ></div>
-          <div class="flex flex-col">
-            <span class="text-red-400">Nuxt JS</span>
-            <span class="text-xl font-medium mb-2">Receitas online</span>
-            <p class="text-neutral-400">
-              Sistema para a publicação e gerenciamento de receitas online
-            </p>
-          </div>
-        </div>
-
-        <div class="flex flex-col md:flex-row gap-4">
-          <div
-            class="w-100 md:min-w-[300px] h-[150px] bg-neutral-500 rounded-md"
-          ></div>
-          <div class="flex flex-col">
-            <span class="text-red-400">Nuxt JS</span>
-            <span class="text-xl font-medium mb-2">Nuxt Finance</span>
-            <p class="text-neutral-400">
-              Gerenciamento de entradas e controle de gastos .
-            </p>
-          </div>
-        </div>
+        <Card
+          v-for="(project, index) in projects"
+          :key="index"
+          :label="project.label"
+          :title="project.title"
+          :description="project.description"
+        />
       </div>
     </section>
   </main>
