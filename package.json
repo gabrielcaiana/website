@@ -29,14 +29,15 @@
     "nuxt": "3.0.0",
     "nuxt-icon": "^0.1.7",
     "prettier-plugin-tailwindcss": "^0.1.13",
+    "sass": "1.49.9",
+    "sass-loader": "^12.4.0",
     "sitemap": "^7.1.1",
     "tailwindcss": "^3.1.8",
     "vitest": "^0.25.7",
-    "vitest-github-actions-reporter": "^0.9.0",
-    "sass": "1.49.9",
-    "sass-loader": "^12.4.0"
+    "vitest-github-actions-reporter": "^0.9.0"
   },
   "dependencies": {
-    "algoliasearch": "^4.14.2"
+    "algoliasearch": "^4.14.2",
+    "vue-gtag": "^2.0.1"
   }
 }
