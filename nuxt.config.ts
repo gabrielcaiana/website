@@ -5,7 +5,17 @@ export default defineNuxtConfig({
   },
   css: ['@/assets/css/tailwind.css'],
   components: [{ path: '@/components', pathPrefix: false }],
-  modules: ['nuxt-icon'],
+  modules: ['nuxt-icon', '@nuxt/content'],
+  content: {
+    documentDriven: true,
+    highlight: {
+      theme: {
+        dark: 'dracula',
+        default: 'dracula',
+      },
+    },
+  },
+
   runtimeConfig: {
     algoliaAppId: process.env.ALGOLIA_APP_ID,
     algoliaApiKey: process.env.ALGOLIA_API_KEY,
