@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     algoliaAppId: process.env.ALGOLIA_APP_ID,
     algoliaApiKey: process.env.ALGOLIA_API_KEY,
+    public: {
+      googleId: process.env.GOOGLE_ID,
+    },
   },
   postcss: {
     plugins: {
