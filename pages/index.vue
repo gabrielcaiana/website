@@ -12,23 +12,9 @@ useHead({
 
 const { projects } = await $fetch('/api/algolia/projects')
 
-const posts = ref([
-  {
-    label: 'Blog Post',
-    title: 'Como adicionar a análise de pacotes do webpack em seu projeto nuxt',
-    description:
-      ' Visualize o tamanho dos arquivos de saída do webpack com um mapa de árvore interativo dentro do seu projeto com nuxtjs.',
-  },
-  {
-    label: 'Blog Post',
-    title:
-      'Entendendo as 10 Heurísticas de Nielsen para melhorar a experiência do usuário',
-    description:
-      'As 10 Heurísticas de Nielsen foram criadas em 1994 pelo cientista da computação Jakob Nielsen, também conhecido como o pai da usabilidade. Ao lado de Don Norman, ele criou posteriormente a Nielsen Norman Group, renomada empresa americana de consultoria em interface e experiência de usuário.',
-  },
-])
-
-console.log(projects)
+const { data: posts } = await useAsyncData('home', () =>
+  queryContent('/blog').find()
+)
 </script>
 
 <template>
@@ -51,12 +37,13 @@ console.log(projects)
         Posts Recentes
       </h2>
       <div class="flex flex-col gap-[48px]">
-        <Card
-          v-for="(post, index) in posts"
-          :key="index"
-          :label="post.label"
-          :title="post.title"
-          :description="post.description"
+        <CardPost
+          v-for="{ _path, title, slug, description, img } in posts"
+          :key="slug"
+          :title="title"
+          :description="description"
+          :image="img"
+          :path="_path"
         />
       </div>
     </section>
@@ -67,7 +54,7 @@ console.log(projects)
       </h3>
 
       <div class="flex flex-col gap-[48px]">
-        <Card
+        <CardProject
           v-for="(project, index) in projects"
           :key="index"
           :type="project.type"
