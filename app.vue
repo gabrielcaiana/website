@@ -21,6 +21,11 @@ useHead({
       rel: 'canonical',
       href: global.url,
     },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.png',
+    },
   ],
 })
 </script>

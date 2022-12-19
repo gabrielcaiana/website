@@ -14,11 +14,7 @@ useContentHead(page)
       <p class="text-xl">{{ data.description }}</p>
       <img class="mb-[64px]" :src="data.img" :alt="data.title" />
     </header>
-    <ContentDoc>
-      <template #not-found>
-        <h2>Blog slug ({{ $route.params.slug }}) não encontrado</h2>
-      </template>
-    </ContentDoc>
+    <ContentDoc />
   </main>
 </template>
 
