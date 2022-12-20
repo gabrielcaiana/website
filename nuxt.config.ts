@@ -1,3 +1,6 @@
+import pt from './locales/pt'
+import en from './locales/en'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
@@ -5,7 +8,7 @@ export default defineNuxtConfig({
   },
   css: ['@/assets/css/tailwind.css'],
   components: [{ path: '@/components', pathPrefix: false }],
-  modules: ['nuxt-icon', '@nuxt/content'],
+  modules: ['nuxt-icon', '@nuxt/content', '@nuxtjs/i18n'],
   content: {
     documentDriven: true,
     highlight: {
@@ -13,6 +16,16 @@ export default defineNuxtConfig({
         dark: 'dracula',
         default: 'dracula',
       },
+    },
+  },
+
+  i18n: {
+    locales: ['pt', 'en'],
+    defaultLocale: 'pt',
+    vueI18n: {
+      legacy: false,
+      locale: 'pt',
+      messages: { pt, en },
     },
   },
 
