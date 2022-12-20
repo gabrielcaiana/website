@@ -21,19 +21,20 @@ const { data: posts } = await useAsyncData('home', () =>
   <main class="flex flex-col gap-[80px]">
     <section>
       <h1 class="text-3xl font-medium mb-6 pb-3 border-b border-neutral-800">
-        {{ $t('salutation') }},
+        Olá, Eu sou Gabriel Caiana
       </h1>
       <p>
-        {{ $t('description') }},
-        <nuxt-link to="/about" class="text-blue-300 font-medium underline">
-          {{ $t('readMore') }} <Icon name="ph:arrow-right" size="14"
+        Sou um engenheiro de software de 26 anos, especializado em tecnologias
+        Javascript, Vue, Web Performance e design.
+        <nuxt-link to="/about" class="text-blue-300 font-medium underline"
+          >Leia mais <Icon name="ph:arrow-right" size="14"
         /></nuxt-link>
       </p>
     </section>
 
     <section>
       <h2 class="text-3xl font-medium mb-6 pb-3 border-b border-neutral-800">
-        {{ $t('recentPosts') }}
+        Posts Recentes
       </h2>
       <div class="flex flex-col gap-[48px]">
         <CardPost
@@ -49,7 +50,7 @@ const { data: posts } = await useAsyncData('home', () =>
 
     <section>
       <h3 class="text-3xl font-medium mb-6 pb-3 border-b border-neutral-800">
-        {{ $t('recentProjects') }}
+        Projetos Recentes
       </h3>
 
       <div class="flex flex-col gap-[48px]">
