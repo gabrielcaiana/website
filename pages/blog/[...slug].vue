@@ -20,12 +20,36 @@ useContentHead(page)
 
 <style lang="scss">
 .blog-content {
+  p,
+  li {
+    @apply text-neutral-300;
+  }
   p {
     @apply my-4;
   }
 
   a {
     @apply underline text-blue-300;
+  }
+
+  h2 {
+    @apply text-2xl pt-[32px] mb-2;
+
+    a {
+      @apply no-underline text-white;
+    }
+  }
+
+  h3 {
+    @apply text-xl pt-[32px] mb-2;
+
+    a {
+      @apply no-underline text-white;
+    }
+  }
+
+  ol li {
+    @apply list-decimal py-2 ml-4;
   }
 }
 </style>
