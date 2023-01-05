@@ -5,7 +5,12 @@ export default defineNuxtConfig({
   },
   css: ['@/assets/css/tailwind.css'],
   components: [{ path: '@/components', pathPrefix: false }],
-  modules: ['nuxt-icon', '@nuxt/content'],
+  modules: ['nuxt-icon', '@nuxt/content', '@nuxtjs/web-vitals'],
+  webVitals: {
+    // provider: 'log',
+    api: { url: '/api/web-vitals' },
+    debug: true,
+  },
   content: {
     documentDriven: true,
     highlight: {
