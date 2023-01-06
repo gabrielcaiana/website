@@ -12,7 +12,13 @@ useContentHead(page)
     <header>
       <h1 class="text-4xl mb-6">{{ data.title }}</h1>
       <p class="text-xl">{{ data.description }}</p>
-      <img class="mb-[64px]" :src="data.img" :alt="data.title" />
+      <NuxtImg
+        class="mb-[64px]"
+        provider="cloudinary"
+        :src="data.img"
+        loading="lazy"
+        :placeholder="data.title"
+      />
     </header>
     <ContentDoc />
   </main>
