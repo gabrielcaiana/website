@@ -55,13 +55,13 @@ const { data: posts } = await useAsyncData('home', () =>
 
       <div class="flex flex-col gap-[48px]">
         <CardProject
-          v-for="(project, index) in projects"
-          :key="index"
-          :type="project.type"
-          :title="project.name"
-          :description="project.description"
-          :image="project.image"
-          :url="project.url"
+          v-for="{ type, name, description, image, url } in projects"
+          :key="name"
+          :type="type"
+          :title="name"
+          :description="description"
+          :image="image"
+          :url="url"
         />
       </div>
     </section>
