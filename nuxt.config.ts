@@ -5,7 +5,17 @@ export default defineNuxtConfig({
   },
   css: ['@/assets/css/tailwind.css'],
   components: [{ path: '@/components', pathPrefix: false }],
-  modules: ['nuxt-icon', '@nuxt/content', '@nuxtjs/web-vitals'],
+  modules: [
+    'nuxt-icon',
+    '@nuxt/content',
+    '@nuxtjs/web-vitals',
+    '@nuxt/image-edge',
+  ],
+  image: {
+    cloudinary: {
+      baseURL: process.env.CLOUDINARY_BASE_URL,
+    },
+  },
   webVitals: {
     // provider: 'log',
     api: { url: '/api/web-vitals' },

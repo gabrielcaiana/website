@@ -26,10 +26,12 @@ const props = defineProps({
 <template>
   <a :href="url" target="_blank">
     <div class="flex flex-col md:flex-row gap-4">
-      <img
-        :src="image"
-        :alt="title"
+      <NuxtImg
         class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+        provider="cloudinary"
+        :src="image"
+        loading="lazy"
+        :placeholder="title"
       />
       <div class="flex flex-col">
         <span class="text-red-400">{{ type }}</span>
