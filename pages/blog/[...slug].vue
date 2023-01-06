@@ -17,7 +17,7 @@ useContentHead(page)
         provider="cloudinary"
         :src="data.img"
         loading="lazy"
-        :placeholder="data.title"
+        :alt="data.title"
       />
     </header>
     <ContentDoc />

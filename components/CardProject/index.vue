@@ -31,7 +31,7 @@ const props = defineProps({
         provider="cloudinary"
         :src="image"
         loading="lazy"
-        :placeholder="title"
+        :alt="title"
       />
       <div class="flex flex-col">
         <span class="text-red-400">{{ type }}</span>
