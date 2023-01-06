@@ -26,7 +26,6 @@ const props = defineProps({
         class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
         provider="cloudinary"
         :src="image"
-        loading="lazy"
         :placeholder="title"
       />
       <div class="flex flex-col">
