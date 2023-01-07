@@ -1,0 +1,4285 @@
+// Vitest Snapshot v1
+
+exports[`CardPost > should render CardPost 1`] = `
+VueWrapper {
+  "__app": {
+    "_component": {
+      "name": "VTU_ROOT",
+      "render": [Function],
+      "setup": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <a
+        href="https://github.com/gabrielcaiana/nuxt-finance"
+        target="_blank"
+      >
+        <div
+          class="flex flex-col md:flex-row gap-4"
+        >
+          <nuxtimg
+            alt="Nuxt Finance"
+            class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+            loading="lazy"
+            provider="cloudinary"
+            src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <span
+              class="text-red-400"
+            >
+              Frontend
+            </span>
+            <span
+              class="text-xl font-medium mb-2"
+            >
+              Nuxt Finance
+            </span>
+            <p
+              class="text-neutral-400"
+            >
+              Sistema de gerenciamento de finanças pessoais.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>,
+    "_context": {
+      "app": [Circular],
+      "components": {
+        "transition": {
+          "name": "transition",
+        },
+        "transition-group": {
+          "name": "transition-group",
+        },
+      },
+      "config": {
+        "compilerOptions": {},
+        "errorHandler": undefined,
+        "globalProperties": {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": {},
+      "emitsCache": WeakMap {},
+      "mixins": [
+        {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": {},
+      "reload": [Function],
+    },
+    "_instance": {
+      "a": null,
+      "accessCache": {},
+      "appContext": {
+        "app": [Circular],
+        "components": {
+          "transition": {
+            "name": "transition",
+          },
+          "transition-group": {
+            "name": "transition-group",
+          },
+        },
+        "config": {
+          "compilerOptions": {},
+          "errorHandler": undefined,
+          "globalProperties": {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": {},
+        "emitsCache": WeakMap {},
+        "mixins": [
+          {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": {
+        "VTU_COMPONENT": {},
+      },
+      "da": null,
+      "data": {},
+      "devtoolsRawSetupState": {
+        "VTU_COMPONENT": RefImpl {
+          "__v_isRef": true,
+          "__v_isShallow": false,
+          "_rawValue": {},
+          "_value": {},
+          "dep": undefined,
+        },
+      },
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "active": true,
+        "allowRecurse": true,
+        "deps": [
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+        ],
+        "fn": [Function],
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "parent": undefined,
+        "scheduler": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": {},
+      "propsDefaults": {},
+      "propsOptions": [
+        {},
+        [],
+      ],
+      "provides": {},
+      "proxy": {
+        "VTU_COMPONENT": {},
+      },
+      "refs": {
+        "VTU_COMPONENT": {},
+      },
+      "render": [Function],
+      "renderCache": [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "active": true,
+        "cleanups": [],
+        "detached": true,
+        "effects": [
+          ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "parent": undefined,
+            "scheduler": [Function],
+          },
+        ],
+        "parent": undefined,
+      },
+      "setupContext": null,
+      "setupState": {
+        "VTU_COMPONENT": {},
+      },
+      "slots": {},
+      "sp": null,
+      "subTree": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": {
+          "a": null,
+          "accessCache": {},
+          "appContext": {
+            "app": [Circular],
+            "components": {
+              "transition": {
+                "name": "transition",
+              },
+              "transition-group": {
+                "name": "transition-group",
+              },
+            },
+            "config": {
+              "compilerOptions": {},
+              "errorHandler": undefined,
+              "globalProperties": {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": {},
+            "emitsCache": WeakMap {},
+            "mixins": [
+              {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": {},
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": {},
+          "ctx": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "da": null,
+          "data": {},
+          "devtoolsRawSetupState": {
+            "props": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+          },
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "parent": undefined,
+            "scheduler": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": null,
+          "emitted": null,
+          "exposeProxy": {},
+          "exposed": {},
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "propsDefaults": {},
+          "propsOptions": [
+            {
+              "description": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "image": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "title": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "type": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "url": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+            },
+            [],
+          ],
+          "provides": {},
+          "proxy": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "refs": {},
+          "render": [Function],
+          "renderCache": [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "active": true,
+            "cleanups": [],
+            "detached": true,
+            "effects": [
+              ReactiveEffect {
+                "active": true,
+                "allowRecurse": true,
+                "deps": [
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                ],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "parent": undefined,
+                "scheduler": [Function],
+              },
+            ],
+            "parent": undefined,
+          },
+          "setupContext": {
+            "attrs": {},
+            "emit": [Function],
+            "expose": [Function],
+            "slots": {},
+          },
+          "setupState": {
+            "props": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+          },
+          "slots": {},
+          "sp": null,
+          "subTree": {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": [
+                      "src",
+                      "alt",
+                    ],
+                    "el": <nuxtimg
+                      alt="Nuxt Finance"
+                      class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                      loading="lazy"
+                      provider="cloudinary"
+                      src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                    />,
+                    "key": null,
+                    "patchFlag": 8,
+                    "props": {
+                      "alt": "Nuxt Finance",
+                      "class": "w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md",
+                      "loading": "lazy",
+                      "provider": "cloudinary",
+                      "src": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "NuxtImg",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": [
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Frontend",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <span
+                          class="text-red-400"
+                        >
+                          Frontend
+                        </span>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-red-400",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "span",
+                      },
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Nuxt Finance",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <span
+                          class="text-xl font-medium mb-2"
+                        >
+                          Nuxt Finance
+                        </span>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-xl font-medium mb-2",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "span",
+                      },
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Sistema de gerenciamento de finanças pessoais.",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <p
+                          class="text-neutral-400"
+                        >
+                          Sistema de gerenciamento de finanças pessoais.
+                        </p>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-neutral-400",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "p",
+                      },
+                    ],
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="text-red-400"
+                      >
+                        Frontend
+                      </span>
+                      <span
+                        class="text-xl font-medium mb-2"
+                      >
+                        Nuxt Finance
+                      </span>
+                      <p
+                        class="text-neutral-400"
+                      >
+                        Sistema de gerenciamento de finanças pessoais.
+                      </p>
+                    </div>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "flex flex-col",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="flex flex-col md:flex-row gap-4"
+                >
+                  <nuxtimg
+                    alt="Nuxt Finance"
+                    class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                    loading="lazy"
+                    provider="cloudinary"
+                    src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                  />
+                  <div
+                    class="flex flex-col"
+                  >
+                    <span
+                      class="text-red-400"
+                    >
+                      Frontend
+                    </span>
+                    <span
+                      class="text-xl font-medium mb-2"
+                    >
+                      Nuxt Finance
+                    </span>
+                    <p
+                      class="text-neutral-400"
+                    >
+                      Sistema de gerenciamento de finanças pessoais.
+                    </p>
+                  </div>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "flex flex-col md:flex-row gap-4",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "div",
+              },
+            ],
+            "component": null,
+            "ctx": [Circular],
+            "dirs": null,
+            "dynamicChildren": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": [
+                  "src",
+                  "alt",
+                ],
+                "el": <nuxtimg
+                  alt="Nuxt Finance"
+                  class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                  loading="lazy"
+                  provider="cloudinary"
+                  src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": {
+                  "alt": "Nuxt Finance",
+                  "class": "w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md",
+                  "loading": "lazy",
+                  "provider": "cloudinary",
+                  "src": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "NuxtImg",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Frontend",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <span
+                  class="text-red-400"
+                >
+                  Frontend
+                </span>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-red-400",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "span",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Nuxt Finance",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <span
+                  class="text-xl font-medium mb-2"
+                >
+                  Nuxt Finance
+                </span>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-xl font-medium mb-2",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "span",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Sistema de gerenciamento de finanças pessoais.",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p
+                  class="text-neutral-400"
+                >
+                  Sistema de gerenciamento de finanças pessoais.
+                </p>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-neutral-400",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "p",
+              },
+            ],
+            "dynamicProps": [
+              "href",
+            ],
+            "el": <a
+              href="https://github.com/gabrielcaiana/nuxt-finance"
+              target="_blank"
+            >
+              <div
+                class="flex flex-col md:flex-row gap-4"
+              >
+                <nuxtimg
+                  alt="Nuxt Finance"
+                  class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                  loading="lazy"
+                  provider="cloudinary"
+                  src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                />
+                <div
+                  class="flex flex-col"
+                >
+                  <span
+                    class="text-red-400"
+                  >
+                    Frontend
+                  </span>
+                  <span
+                    class="text-xl font-medium mb-2"
+                  >
+                    Nuxt Finance
+                  </span>
+                  <p
+                    class="text-neutral-400"
+                  >
+                    Sistema de gerenciamento de finanças pessoais.
+                  </p>
+                </div>
+              </div>
+            </a>,
+            "key": null,
+            "patchFlag": 8,
+            "props": {
+              "href": "https://github.com/gabrielcaiana/nuxt-finance",
+              "target": "_blank",
+            },
+            "ref": null,
+            "scopeId": null,
+            "shapeFlag": 17,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "transition": null,
+            "type": "a",
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": {
+            "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/CardProject/index.vue",
+            "__name": "index",
+            "components": {},
+            "props": {
+              "description": {
+                "required": true,
+                "type": [Function],
+              },
+              "image": {
+                "required": true,
+                "type": [Function],
+              },
+              "title": {
+                "required": true,
+                "type": [Function],
+              },
+              "type": {
+                "required": true,
+                "type": [Function],
+              },
+              "url": {
+                "required": true,
+                "type": [Function],
+              },
+            },
+            "propsData": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+            "render": [Function],
+            "setup": [Function],
+          },
+          "u": null,
+          "uid": 1,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "ctx": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <a
+          href="https://github.com/gabrielcaiana/nuxt-finance"
+          target="_blank"
+        >
+          <div
+            class="flex flex-col md:flex-row gap-4"
+          >
+            <nuxtimg
+              alt="Nuxt Finance"
+              class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+              loading="lazy"
+              provider="cloudinary"
+              src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+            />
+            <div
+              class="flex flex-col"
+            >
+              <span
+                class="text-red-400"
+              >
+                Frontend
+              </span>
+              <span
+                class="text-xl font-medium mb-2"
+              >
+                Nuxt Finance
+              </span>
+              <p
+                class="text-neutral-400"
+              >
+                Sistema de gerenciamento de finanças pessoais.
+              </p>
+            </div>
+          </div>
+        </a>,
+        "key": null,
+        "patchFlag": 0,
+        "props": {
+          "description": "Sistema de gerenciamento de finanças pessoais.",
+          "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+          "ref": "VTU_COMPONENT",
+          "title": "Nuxt Finance",
+          "type": "Frontend",
+          "url": "https://github.com/gabrielcaiana/nuxt-finance",
+        },
+        "ref": {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": {
+          "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/CardProject/index.vue",
+          "__name": "index",
+          "components": {},
+          "props": {
+            "description": {
+              "required": true,
+              "type": [Function],
+            },
+            "image": {
+              "required": true,
+              "type": [Function],
+            },
+            "title": {
+              "required": true,
+              "type": [Function],
+            },
+            "type": {
+              "required": true,
+              "type": [Function],
+            },
+            "url": {
+              "required": true,
+              "type": [Function],
+            },
+          },
+          "propsData": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": {
+        "name": "VTU_ROOT",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "u": null,
+      "uid": 0,
+      "um": null,
+      "update": [Function],
+      "vnode": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": {
+          "app": [Circular],
+          "components": {
+            "transition": {
+              "name": "transition",
+            },
+            "transition-group": {
+              "name": "transition-group",
+            },
+          },
+          "config": {
+            "compilerOptions": {},
+            "errorHandler": undefined,
+            "globalProperties": {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": {},
+          "emitsCache": WeakMap {},
+          "mixins": [
+            {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "ctx": null,
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <a
+          href="https://github.com/gabrielcaiana/nuxt-finance"
+          target="_blank"
+        >
+          <div
+            class="flex flex-col md:flex-row gap-4"
+          >
+            <nuxtimg
+              alt="Nuxt Finance"
+              class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+              loading="lazy"
+              provider="cloudinary"
+              src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+            />
+            <div
+              class="flex flex-col"
+            >
+              <span
+                class="text-red-400"
+              >
+                Frontend
+              </span>
+              <span
+                class="text-xl font-medium mb-2"
+              >
+                Nuxt Finance
+              </span>
+              <p
+                class="text-neutral-400"
+              >
+                Sistema de gerenciamento de finanças pessoais.
+              </p>
+            </div>
+          </div>
+        </a>,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": {
+          "name": "VTU_ROOT",
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 0,
+    "component": [Function],
+    "config": {
+      "compilerOptions": {},
+      "errorHandler": undefined,
+      "globalProperties": {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.2.45",
+  },
+  "__setProps": [Function],
+  "cleanUpCallbacks": [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "componentVM": {},
+  "isDisabled": [Function],
+  "rootVM": {
+    "VTU_COMPONENT": {},
+  },
+  "wrapperElement": <a
+    href="https://github.com/gabrielcaiana/nuxt-finance"
+    target="_blank"
+  >
+    <div
+      class="flex flex-col md:flex-row gap-4"
+    >
+      <nuxtimg
+        alt="Nuxt Finance"
+        class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+        loading="lazy"
+        provider="cloudinary"
+        src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+      />
+      <div
+        class="flex flex-col"
+      >
+        <span
+          class="text-red-400"
+        >
+          Frontend
+        </span>
+        <span
+          class="text-xl font-medium mb-2"
+        >
+          Nuxt Finance
+        </span>
+        <p
+          class="text-neutral-400"
+        >
+          Sistema de gerenciamento de finanças pessoais.
+        </p>
+      </div>
+    </div>
+  </a>,
+}
+`;
+
+exports[`CardProject > should render CardPost 1`] = `
+VueWrapper {
+  "__app": {
+    "_component": {
+      "name": "VTU_ROOT",
+      "render": [Function],
+      "setup": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <a
+        href="https://github.com/gabrielcaiana/nuxt-finance"
+        target="_blank"
+      >
+        <div
+          class="flex flex-col md:flex-row gap-4"
+        >
+          <nuxtimg
+            alt="Nuxt Finance"
+            class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+            loading="lazy"
+            provider="cloudinary"
+            src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <span
+              class="text-red-400"
+            >
+              Frontend
+            </span>
+            <span
+              class="text-xl font-medium mb-2"
+            >
+              Nuxt Finance
+            </span>
+            <p
+              class="text-neutral-400"
+            >
+              Sistema de gerenciamento de finanças pessoais.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>,
+    "_context": {
+      "app": [Circular],
+      "components": {
+        "transition": {
+          "name": "transition",
+        },
+        "transition-group": {
+          "name": "transition-group",
+        },
+      },
+      "config": {
+        "compilerOptions": {},
+        "errorHandler": undefined,
+        "globalProperties": {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": {},
+      "emitsCache": WeakMap {},
+      "mixins": [
+        {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": {},
+      "reload": [Function],
+    },
+    "_instance": {
+      "a": null,
+      "accessCache": {},
+      "appContext": {
+        "app": [Circular],
+        "components": {
+          "transition": {
+            "name": "transition",
+          },
+          "transition-group": {
+            "name": "transition-group",
+          },
+        },
+        "config": {
+          "compilerOptions": {},
+          "errorHandler": undefined,
+          "globalProperties": {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": {},
+        "emitsCache": WeakMap {},
+        "mixins": [
+          {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": {
+        "VTU_COMPONENT": {},
+      },
+      "da": null,
+      "data": {},
+      "devtoolsRawSetupState": {
+        "VTU_COMPONENT": RefImpl {
+          "__v_isRef": true,
+          "__v_isShallow": false,
+          "_rawValue": {},
+          "_value": {},
+          "dep": undefined,
+        },
+      },
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "active": true,
+        "allowRecurse": true,
+        "deps": [
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+        ],
+        "fn": [Function],
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "parent": undefined,
+        "scheduler": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": {},
+      "propsDefaults": {},
+      "propsOptions": [
+        {},
+        [],
+      ],
+      "provides": {},
+      "proxy": {
+        "VTU_COMPONENT": {},
+      },
+      "refs": {
+        "VTU_COMPONENT": {},
+      },
+      "render": [Function],
+      "renderCache": [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "active": true,
+        "cleanups": [],
+        "detached": true,
+        "effects": [
+          ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "parent": undefined,
+            "scheduler": [Function],
+          },
+        ],
+        "parent": undefined,
+      },
+      "setupContext": null,
+      "setupState": {
+        "VTU_COMPONENT": {},
+      },
+      "slots": {},
+      "sp": null,
+      "subTree": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": {
+          "a": null,
+          "accessCache": {},
+          "appContext": {
+            "app": [Circular],
+            "components": {
+              "transition": {
+                "name": "transition",
+              },
+              "transition-group": {
+                "name": "transition-group",
+              },
+            },
+            "config": {
+              "compilerOptions": {},
+              "errorHandler": undefined,
+              "globalProperties": {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": {},
+            "emitsCache": WeakMap {},
+            "mixins": [
+              {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": {},
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": {},
+          "ctx": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "da": null,
+          "data": {},
+          "devtoolsRawSetupState": {
+            "props": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+          },
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "parent": undefined,
+            "scheduler": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": null,
+          "emitted": null,
+          "exposeProxy": {},
+          "exposed": {},
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "propsDefaults": {},
+          "propsOptions": [
+            {
+              "description": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "image": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "title": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "type": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "url": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+            },
+            [],
+          ],
+          "provides": {},
+          "proxy": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "refs": {},
+          "render": [Function],
+          "renderCache": [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "active": true,
+            "cleanups": [],
+            "detached": true,
+            "effects": [
+              ReactiveEffect {
+                "active": true,
+                "allowRecurse": true,
+                "deps": [
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                ],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "parent": undefined,
+                "scheduler": [Function],
+              },
+            ],
+            "parent": undefined,
+          },
+          "setupContext": {
+            "attrs": {},
+            "emit": [Function],
+            "expose": [Function],
+            "slots": {},
+          },
+          "setupState": {
+            "props": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+          },
+          "slots": {},
+          "sp": null,
+          "subTree": {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": [
+                      "src",
+                      "alt",
+                    ],
+                    "el": <nuxtimg
+                      alt="Nuxt Finance"
+                      class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                      loading="lazy"
+                      provider="cloudinary"
+                      src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                    />,
+                    "key": null,
+                    "patchFlag": 8,
+                    "props": {
+                      "alt": "Nuxt Finance",
+                      "class": "w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md",
+                      "loading": "lazy",
+                      "provider": "cloudinary",
+                      "src": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "NuxtImg",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": [
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Frontend",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <span
+                          class="text-red-400"
+                        >
+                          Frontend
+                        </span>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-red-400",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "span",
+                      },
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Nuxt Finance",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <span
+                          class="text-xl font-medium mb-2"
+                        >
+                          Nuxt Finance
+                        </span>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-xl font-medium mb-2",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "span",
+                      },
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Sistema de gerenciamento de finanças pessoais.",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <p
+                          class="text-neutral-400"
+                        >
+                          Sistema de gerenciamento de finanças pessoais.
+                        </p>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-neutral-400",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "p",
+                      },
+                    ],
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="text-red-400"
+                      >
+                        Frontend
+                      </span>
+                      <span
+                        class="text-xl font-medium mb-2"
+                      >
+                        Nuxt Finance
+                      </span>
+                      <p
+                        class="text-neutral-400"
+                      >
+                        Sistema de gerenciamento de finanças pessoais.
+                      </p>
+                    </div>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "flex flex-col",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="flex flex-col md:flex-row gap-4"
+                >
+                  <nuxtimg
+                    alt="Nuxt Finance"
+                    class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                    loading="lazy"
+                    provider="cloudinary"
+                    src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                  />
+                  <div
+                    class="flex flex-col"
+                  >
+                    <span
+                      class="text-red-400"
+                    >
+                      Frontend
+                    </span>
+                    <span
+                      class="text-xl font-medium mb-2"
+                    >
+                      Nuxt Finance
+                    </span>
+                    <p
+                      class="text-neutral-400"
+                    >
+                      Sistema de gerenciamento de finanças pessoais.
+                    </p>
+                  </div>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "flex flex-col md:flex-row gap-4",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "div",
+              },
+            ],
+            "component": null,
+            "ctx": [Circular],
+            "dirs": null,
+            "dynamicChildren": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": [
+                  "src",
+                  "alt",
+                ],
+                "el": <nuxtimg
+                  alt="Nuxt Finance"
+                  class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                  loading="lazy"
+                  provider="cloudinary"
+                  src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": {
+                  "alt": "Nuxt Finance",
+                  "class": "w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md",
+                  "loading": "lazy",
+                  "provider": "cloudinary",
+                  "src": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "NuxtImg",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Frontend",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <span
+                  class="text-red-400"
+                >
+                  Frontend
+                </span>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-red-400",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "span",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Nuxt Finance",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <span
+                  class="text-xl font-medium mb-2"
+                >
+                  Nuxt Finance
+                </span>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-xl font-medium mb-2",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "span",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Sistema de gerenciamento de finanças pessoais.",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p
+                  class="text-neutral-400"
+                >
+                  Sistema de gerenciamento de finanças pessoais.
+                </p>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-neutral-400",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "p",
+              },
+            ],
+            "dynamicProps": [
+              "href",
+            ],
+            "el": <a
+              href="https://github.com/gabrielcaiana/nuxt-finance"
+              target="_blank"
+            >
+              <div
+                class="flex flex-col md:flex-row gap-4"
+              >
+                <nuxtimg
+                  alt="Nuxt Finance"
+                  class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                  loading="lazy"
+                  provider="cloudinary"
+                  src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                />
+                <div
+                  class="flex flex-col"
+                >
+                  <span
+                    class="text-red-400"
+                  >
+                    Frontend
+                  </span>
+                  <span
+                    class="text-xl font-medium mb-2"
+                  >
+                    Nuxt Finance
+                  </span>
+                  <p
+                    class="text-neutral-400"
+                  >
+                    Sistema de gerenciamento de finanças pessoais.
+                  </p>
+                </div>
+              </div>
+            </a>,
+            "key": null,
+            "patchFlag": 8,
+            "props": {
+              "href": "https://github.com/gabrielcaiana/nuxt-finance",
+              "target": "_blank",
+            },
+            "ref": null,
+            "scopeId": null,
+            "shapeFlag": 17,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "transition": null,
+            "type": "a",
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": {
+            "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/CardProject/index.vue",
+            "__name": "index",
+            "components": {},
+            "props": {
+              "description": {
+                "required": true,
+                "type": [Function],
+              },
+              "image": {
+                "required": true,
+                "type": [Function],
+              },
+              "title": {
+                "required": true,
+                "type": [Function],
+              },
+              "type": {
+                "required": true,
+                "type": [Function],
+              },
+              "url": {
+                "required": true,
+                "type": [Function],
+              },
+            },
+            "propsData": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+            "render": [Function],
+            "setup": [Function],
+          },
+          "u": null,
+          "uid": 1,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "ctx": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <a
+          href="https://github.com/gabrielcaiana/nuxt-finance"
+          target="_blank"
+        >
+          <div
+            class="flex flex-col md:flex-row gap-4"
+          >
+            <nuxtimg
+              alt="Nuxt Finance"
+              class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+              loading="lazy"
+              provider="cloudinary"
+              src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+            />
+            <div
+              class="flex flex-col"
+            >
+              <span
+                class="text-red-400"
+              >
+                Frontend
+              </span>
+              <span
+                class="text-xl font-medium mb-2"
+              >
+                Nuxt Finance
+              </span>
+              <p
+                class="text-neutral-400"
+              >
+                Sistema de gerenciamento de finanças pessoais.
+              </p>
+            </div>
+          </div>
+        </a>,
+        "key": null,
+        "patchFlag": 0,
+        "props": {
+          "description": "Sistema de gerenciamento de finanças pessoais.",
+          "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+          "ref": "VTU_COMPONENT",
+          "title": "Nuxt Finance",
+          "type": "Frontend",
+          "url": "https://github.com/gabrielcaiana/nuxt-finance",
+        },
+        "ref": {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": {
+          "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/CardProject/index.vue",
+          "__name": "index",
+          "components": {},
+          "props": {
+            "description": {
+              "required": true,
+              "type": [Function],
+            },
+            "image": {
+              "required": true,
+              "type": [Function],
+            },
+            "title": {
+              "required": true,
+              "type": [Function],
+            },
+            "type": {
+              "required": true,
+              "type": [Function],
+            },
+            "url": {
+              "required": true,
+              "type": [Function],
+            },
+          },
+          "propsData": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": {
+        "name": "VTU_ROOT",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "u": null,
+      "uid": 0,
+      "um": null,
+      "update": [Function],
+      "vnode": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": {
+          "app": [Circular],
+          "components": {
+            "transition": {
+              "name": "transition",
+            },
+            "transition-group": {
+              "name": "transition-group",
+            },
+          },
+          "config": {
+            "compilerOptions": {},
+            "errorHandler": undefined,
+            "globalProperties": {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": {},
+          "emitsCache": WeakMap {},
+          "mixins": [
+            {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "ctx": null,
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <a
+          href="https://github.com/gabrielcaiana/nuxt-finance"
+          target="_blank"
+        >
+          <div
+            class="flex flex-col md:flex-row gap-4"
+          >
+            <nuxtimg
+              alt="Nuxt Finance"
+              class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+              loading="lazy"
+              provider="cloudinary"
+              src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+            />
+            <div
+              class="flex flex-col"
+            >
+              <span
+                class="text-red-400"
+              >
+                Frontend
+              </span>
+              <span
+                class="text-xl font-medium mb-2"
+              >
+                Nuxt Finance
+              </span>
+              <p
+                class="text-neutral-400"
+              >
+                Sistema de gerenciamento de finanças pessoais.
+              </p>
+            </div>
+          </div>
+        </a>,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": {
+          "name": "VTU_ROOT",
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 0,
+    "component": [Function],
+    "config": {
+      "compilerOptions": {},
+      "errorHandler": undefined,
+      "globalProperties": {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.2.45",
+  },
+  "__setProps": [Function],
+  "cleanUpCallbacks": [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "componentVM": {},
+  "isDisabled": [Function],
+  "rootVM": {
+    "VTU_COMPONENT": {},
+  },
+  "wrapperElement": <a
+    href="https://github.com/gabrielcaiana/nuxt-finance"
+    target="_blank"
+  >
+    <div
+      class="flex flex-col md:flex-row gap-4"
+    >
+      <nuxtimg
+        alt="Nuxt Finance"
+        class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+        loading="lazy"
+        provider="cloudinary"
+        src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+      />
+      <div
+        class="flex flex-col"
+      >
+        <span
+          class="text-red-400"
+        >
+          Frontend
+        </span>
+        <span
+          class="text-xl font-medium mb-2"
+        >
+          Nuxt Finance
+        </span>
+        <p
+          class="text-neutral-400"
+        >
+          Sistema de gerenciamento de finanças pessoais.
+        </p>
+      </div>
+    </div>
+  </a>,
+}
+`;
+
+exports[`CardProject > should render CardProject 1`] = `
+VueWrapper {
+  "__app": {
+    "_component": {
+      "name": "VTU_ROOT",
+      "render": [Function],
+      "setup": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <a
+        href="https://github.com/gabrielcaiana/nuxt-finance"
+        target="_blank"
+      >
+        <div
+          class="flex flex-col md:flex-row gap-4"
+        >
+          <nuxtimg
+            alt="Nuxt Finance"
+            class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+            loading="lazy"
+            provider="cloudinary"
+            src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <span
+              class="text-red-400"
+            >
+              Frontend
+            </span>
+            <span
+              class="text-xl font-medium mb-2"
+            >
+              Nuxt Finance
+            </span>
+            <p
+              class="text-neutral-400"
+            >
+              Sistema de gerenciamento de finanças pessoais.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>,
+    "_context": {
+      "app": [Circular],
+      "components": {
+        "transition": {
+          "name": "transition",
+        },
+        "transition-group": {
+          "name": "transition-group",
+        },
+      },
+      "config": {
+        "compilerOptions": {},
+        "errorHandler": undefined,
+        "globalProperties": {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": {},
+      "emitsCache": WeakMap {},
+      "mixins": [
+        {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": {},
+      "reload": [Function],
+    },
+    "_instance": {
+      "a": null,
+      "accessCache": {},
+      "appContext": {
+        "app": [Circular],
+        "components": {
+          "transition": {
+            "name": "transition",
+          },
+          "transition-group": {
+            "name": "transition-group",
+          },
+        },
+        "config": {
+          "compilerOptions": {},
+          "errorHandler": undefined,
+          "globalProperties": {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": {},
+        "emitsCache": WeakMap {},
+        "mixins": [
+          {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": {
+        "VTU_COMPONENT": {},
+      },
+      "da": null,
+      "data": {},
+      "devtoolsRawSetupState": {
+        "VTU_COMPONENT": RefImpl {
+          "__v_isRef": true,
+          "__v_isShallow": false,
+          "_rawValue": {},
+          "_value": {},
+          "dep": undefined,
+        },
+      },
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "active": true,
+        "allowRecurse": true,
+        "deps": [
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+        ],
+        "fn": [Function],
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "parent": undefined,
+        "scheduler": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": {},
+      "propsDefaults": {},
+      "propsOptions": [
+        {},
+        [],
+      ],
+      "provides": {},
+      "proxy": {
+        "VTU_COMPONENT": {},
+      },
+      "refs": {
+        "VTU_COMPONENT": {},
+      },
+      "render": [Function],
+      "renderCache": [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "active": true,
+        "cleanups": [],
+        "detached": true,
+        "effects": [
+          ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "parent": undefined,
+            "scheduler": [Function],
+          },
+        ],
+        "parent": undefined,
+      },
+      "setupContext": null,
+      "setupState": {
+        "VTU_COMPONENT": {},
+      },
+      "slots": {},
+      "sp": null,
+      "subTree": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": {
+          "a": null,
+          "accessCache": {},
+          "appContext": {
+            "app": [Circular],
+            "components": {
+              "transition": {
+                "name": "transition",
+              },
+              "transition-group": {
+                "name": "transition-group",
+              },
+            },
+            "config": {
+              "compilerOptions": {},
+              "errorHandler": undefined,
+              "globalProperties": {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": {},
+            "emitsCache": WeakMap {},
+            "mixins": [
+              {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": {},
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": {},
+          "ctx": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "da": null,
+          "data": {},
+          "devtoolsRawSetupState": {
+            "props": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+          },
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "parent": undefined,
+            "scheduler": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": null,
+          "emitted": null,
+          "exposeProxy": {},
+          "exposed": {},
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "propsDefaults": {},
+          "propsOptions": [
+            {
+              "description": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "image": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "title": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "type": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+              "url": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+            },
+            [],
+          ],
+          "provides": {},
+          "proxy": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "refs": {},
+          "render": [Function],
+          "renderCache": [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "active": true,
+            "cleanups": [],
+            "detached": true,
+            "effects": [
+              ReactiveEffect {
+                "active": true,
+                "allowRecurse": true,
+                "deps": [
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                  Set {
+                    [Circular],
+                  },
+                ],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "parent": undefined,
+                "scheduler": [Function],
+              },
+            ],
+            "parent": undefined,
+          },
+          "setupContext": {
+            "attrs": {},
+            "emit": [Function],
+            "expose": [Function],
+            "slots": {},
+          },
+          "setupState": {
+            "props": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+          },
+          "slots": {},
+          "sp": null,
+          "subTree": {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": [
+                      "src",
+                      "alt",
+                    ],
+                    "el": <nuxtimg
+                      alt="Nuxt Finance"
+                      class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                      loading="lazy"
+                      provider="cloudinary"
+                      src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                    />,
+                    "key": null,
+                    "patchFlag": 8,
+                    "props": {
+                      "alt": "Nuxt Finance",
+                      "class": "w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md",
+                      "loading": "lazy",
+                      "provider": "cloudinary",
+                      "src": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "NuxtImg",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": [
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Frontend",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <span
+                          class="text-red-400"
+                        >
+                          Frontend
+                        </span>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-red-400",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "span",
+                      },
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Nuxt Finance",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <span
+                          class="text-xl font-medium mb-2"
+                        >
+                          Nuxt Finance
+                        </span>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-xl font-medium mb-2",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "span",
+                      },
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Sistema de gerenciamento de finanças pessoais.",
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <p
+                          class="text-neutral-400"
+                        >
+                          Sistema de gerenciamento de finanças pessoais.
+                        </p>,
+                        "key": null,
+                        "patchFlag": 1,
+                        "props": {
+                          "class": "text-neutral-400",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "p",
+                      },
+                    ],
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="text-red-400"
+                      >
+                        Frontend
+                      </span>
+                      <span
+                        class="text-xl font-medium mb-2"
+                      >
+                        Nuxt Finance
+                      </span>
+                      <p
+                        class="text-neutral-400"
+                      >
+                        Sistema de gerenciamento de finanças pessoais.
+                      </p>
+                    </div>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "flex flex-col",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="flex flex-col md:flex-row gap-4"
+                >
+                  <nuxtimg
+                    alt="Nuxt Finance"
+                    class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                    loading="lazy"
+                    provider="cloudinary"
+                    src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                  />
+                  <div
+                    class="flex flex-col"
+                  >
+                    <span
+                      class="text-red-400"
+                    >
+                      Frontend
+                    </span>
+                    <span
+                      class="text-xl font-medium mb-2"
+                    >
+                      Nuxt Finance
+                    </span>
+                    <p
+                      class="text-neutral-400"
+                    >
+                      Sistema de gerenciamento de finanças pessoais.
+                    </p>
+                  </div>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "flex flex-col md:flex-row gap-4",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "div",
+              },
+            ],
+            "component": null,
+            "ctx": [Circular],
+            "dirs": null,
+            "dynamicChildren": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": [
+                  "src",
+                  "alt",
+                ],
+                "el": <nuxtimg
+                  alt="Nuxt Finance"
+                  class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                  loading="lazy"
+                  provider="cloudinary"
+                  src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": {
+                  "alt": "Nuxt Finance",
+                  "class": "w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md",
+                  "loading": "lazy",
+                  "provider": "cloudinary",
+                  "src": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "NuxtImg",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Frontend",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <span
+                  class="text-red-400"
+                >
+                  Frontend
+                </span>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-red-400",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "span",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Nuxt Finance",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <span
+                  class="text-xl font-medium mb-2"
+                >
+                  Nuxt Finance
+                </span>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-xl font-medium mb-2",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "span",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Sistema de gerenciamento de finanças pessoais.",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p
+                  class="text-neutral-400"
+                >
+                  Sistema de gerenciamento de finanças pessoais.
+                </p>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "text-neutral-400",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "p",
+              },
+            ],
+            "dynamicProps": [
+              "href",
+            ],
+            "el": <a
+              href="https://github.com/gabrielcaiana/nuxt-finance"
+              target="_blank"
+            >
+              <div
+                class="flex flex-col md:flex-row gap-4"
+              >
+                <nuxtimg
+                  alt="Nuxt Finance"
+                  class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+                  loading="lazy"
+                  provider="cloudinary"
+                  src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+                />
+                <div
+                  class="flex flex-col"
+                >
+                  <span
+                    class="text-red-400"
+                  >
+                    Frontend
+                  </span>
+                  <span
+                    class="text-xl font-medium mb-2"
+                  >
+                    Nuxt Finance
+                  </span>
+                  <p
+                    class="text-neutral-400"
+                  >
+                    Sistema de gerenciamento de finanças pessoais.
+                  </p>
+                </div>
+              </div>
+            </a>,
+            "key": null,
+            "patchFlag": 8,
+            "props": {
+              "href": "https://github.com/gabrielcaiana/nuxt-finance",
+              "target": "_blank",
+            },
+            "ref": null,
+            "scopeId": null,
+            "shapeFlag": 17,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "transition": null,
+            "type": "a",
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": {
+            "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/CardProject/index.vue",
+            "__name": "index",
+            "components": {},
+            "props": {
+              "description": {
+                "required": true,
+                "type": [Function],
+              },
+              "image": {
+                "required": true,
+                "type": [Function],
+              },
+              "title": {
+                "required": true,
+                "type": [Function],
+              },
+              "type": {
+                "required": true,
+                "type": [Function],
+              },
+              "url": {
+                "required": true,
+                "type": [Function],
+              },
+            },
+            "propsData": {
+              "description": "Sistema de gerenciamento de finanças pessoais.",
+              "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+              "title": "Nuxt Finance",
+              "type": "Frontend",
+              "url": "https://github.com/gabrielcaiana/nuxt-finance",
+            },
+            "render": [Function],
+            "setup": [Function],
+          },
+          "u": null,
+          "uid": 1,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "ctx": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <a
+          href="https://github.com/gabrielcaiana/nuxt-finance"
+          target="_blank"
+        >
+          <div
+            class="flex flex-col md:flex-row gap-4"
+          >
+            <nuxtimg
+              alt="Nuxt Finance"
+              class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+              loading="lazy"
+              provider="cloudinary"
+              src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+            />
+            <div
+              class="flex flex-col"
+            >
+              <span
+                class="text-red-400"
+              >
+                Frontend
+              </span>
+              <span
+                class="text-xl font-medium mb-2"
+              >
+                Nuxt Finance
+              </span>
+              <p
+                class="text-neutral-400"
+              >
+                Sistema de gerenciamento de finanças pessoais.
+              </p>
+            </div>
+          </div>
+        </a>,
+        "key": null,
+        "patchFlag": 0,
+        "props": {
+          "description": "Sistema de gerenciamento de finanças pessoais.",
+          "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+          "ref": "VTU_COMPONENT",
+          "title": "Nuxt Finance",
+          "type": "Frontend",
+          "url": "https://github.com/gabrielcaiana/nuxt-finance",
+        },
+        "ref": {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": {
+          "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/CardProject/index.vue",
+          "__name": "index",
+          "components": {},
+          "props": {
+            "description": {
+              "required": true,
+              "type": [Function],
+            },
+            "image": {
+              "required": true,
+              "type": [Function],
+            },
+            "title": {
+              "required": true,
+              "type": [Function],
+            },
+            "type": {
+              "required": true,
+              "type": [Function],
+            },
+            "url": {
+              "required": true,
+              "type": [Function],
+            },
+          },
+          "propsData": {
+            "description": "Sistema de gerenciamento de finanças pessoais.",
+            "image": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png",
+            "title": "Nuxt Finance",
+            "type": "Frontend",
+            "url": "https://github.com/gabrielcaiana/nuxt-finance",
+          },
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": {
+        "name": "VTU_ROOT",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "u": null,
+      "uid": 0,
+      "um": null,
+      "update": [Function],
+      "vnode": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": {
+          "app": [Circular],
+          "components": {
+            "transition": {
+              "name": "transition",
+            },
+            "transition-group": {
+              "name": "transition-group",
+            },
+          },
+          "config": {
+            "compilerOptions": {},
+            "errorHandler": undefined,
+            "globalProperties": {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": {},
+          "emitsCache": WeakMap {},
+          "mixins": [
+            {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "ctx": null,
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <a
+          href="https://github.com/gabrielcaiana/nuxt-finance"
+          target="_blank"
+        >
+          <div
+            class="flex flex-col md:flex-row gap-4"
+          >
+            <nuxtimg
+              alt="Nuxt Finance"
+              class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+              loading="lazy"
+              provider="cloudinary"
+              src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+            />
+            <div
+              class="flex flex-col"
+            >
+              <span
+                class="text-red-400"
+              >
+                Frontend
+              </span>
+              <span
+                class="text-xl font-medium mb-2"
+              >
+                Nuxt Finance
+              </span>
+              <p
+                class="text-neutral-400"
+              >
+                Sistema de gerenciamento de finanças pessoais.
+              </p>
+            </div>
+          </div>
+        </a>,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": {
+          "name": "VTU_ROOT",
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 0,
+    "component": [Function],
+    "config": {
+      "compilerOptions": {},
+      "errorHandler": undefined,
+      "globalProperties": {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.2.45",
+  },
+  "__setProps": [Function],
+  "cleanUpCallbacks": [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "componentVM": {},
+  "isDisabled": [Function],
+  "rootVM": {
+    "VTU_COMPONENT": {},
+  },
+  "wrapperElement": <a
+    href="https://github.com/gabrielcaiana/nuxt-finance"
+    target="_blank"
+  >
+    <div
+      class="flex flex-col md:flex-row gap-4"
+    >
+      <nuxtimg
+        alt="Nuxt Finance"
+        class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
+        loading="lazy"
+        provider="cloudinary"
+        src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/nuxt-finance.png"
+      />
+      <div
+        class="flex flex-col"
+      >
+        <span
+          class="text-red-400"
+        >
+          Frontend
+        </span>
+        <span
+          class="text-xl font-medium mb-2"
+        >
+          Nuxt Finance
+        </span>
+        <p
+          class="text-neutral-400"
+        >
+          Sistema de gerenciamento de finanças pessoais.
+        </p>
+      </div>
+    </div>
+  </a>,
+}
+`;
