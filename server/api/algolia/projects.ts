@@ -1,4 +1,4 @@
-import { AlgoliaRequest } from '~/server/algolia-service'
+import { AlgoliaRequest } from '~~/server/services/algolia-service'
 
 export default defineEventHandler(async (event) => {
   const algolia = new AlgoliaRequest()
