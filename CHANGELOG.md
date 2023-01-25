@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/gabrielcaiana/website/compare/v1.0.0...v1.1.0) (2023-01-25)
+
+
+### Features
+
+* update nuxt to 3.1 ([f38cf4e](https://github.com/gabrielcaiana/website/commit/f38cf4e5fc476a1ac2c1f5f5e399e69c08e15a1e))
+
 ## 1.0.0 (2023-01-07)
 
 
