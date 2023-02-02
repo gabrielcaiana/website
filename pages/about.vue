@@ -11,9 +11,9 @@ useHead({
       </h1>
       <div class="border-b border-neutral-800 mb-6 pb-3">
         <p class="mb-6">
-          Meu nome é <strong>Gabriel Caiana</strong> e sou um engenheiro de
-          software de 26 anos. Sou especializado em tecnologias Javascript, Vue,
-          Web Performance e design.
+          Meu nome é <strong>Gabriel Caiana</strong> e sou um desenvolvedor
+          <strong>front-end</strong>. Sou especializado em tecnologias
+          Javascript, Vue, Web Performance e design.
         </p>
 
         <p class="mb-6">
