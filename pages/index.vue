@@ -1,13 +1,6 @@
 <script setup>
 useHead({
   title: 'Início',
-  meta: [
-    {
-      name: 'description',
-      description:
-        'Sou um engenheiro de software de 26 anos, especializado em tecnologias Javascript, Vue, Web Performance e design.',
-    },
-  ],
 })
 
 const { projects } = await $fetch('/api/algolia/projects')
