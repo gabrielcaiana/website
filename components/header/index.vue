@@ -15,6 +15,9 @@
       <a href="https://www.linkedin.com/in/gabrielcaiana/" target="_blank"
         ><Icon name="ph:linkedin-logo-fill" size="24"
       /></a>
+      <a href="https://dev.to/gabrielcaiana" target="_blank"
+        ><Icon name="ph:code" size="24"
+      /></a>
     </div>
   </header>
 </template>
