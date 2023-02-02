@@ -13,16 +13,16 @@ const { data: posts } = await useAsyncData('home', () =>
 <template>
   <main class="flex flex-col gap-[80px]">
     <section>
-      <h1 class="text-3xl font-medium mb-6 pb-3 border-b border-neutral-800">
-        Olá, Eu sou Gabriel Caiana
-      </h1>
-      <p>
-        Sou um engenheiro de software de 26 anos, especializado em tecnologias
-        Javascript, Vue, Web Performance e design.
+      <p class="text-3xl font-medium mb-6 pb-3 border-b border-neutral-800">
+        Olá, Eu sou <strong>Gabriel Caiana</strong>
+      </p>
+      <h1>
+        Desenvolvedor front-end, especializado em tecnologias Javascript, Vue,
+        Web Performance e design.
         <nuxt-link to="/about" class="text-blue-300 font-medium underline"
           >Leia mais <Icon name="ph:arrow-right" size="14"
         /></nuxt-link>
-      </p>
+      </h1>
     </section>
 
     <section>
