@@ -10,10 +10,17 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/web-vitals',
     '@nuxt/image-edge',
+    '@nuxtjs/robots',
   ],
   image: {
     cloudinary: {
       baseURL: process.env.CLOUDINARY_BASE_URL,
+    },
+  },
+  robots: {
+    rules: {
+      UserAgent: '*',
+      Disallow: '',
     },
   },
   webVitals: {

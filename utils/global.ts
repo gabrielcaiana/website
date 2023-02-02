@@ -3,7 +3,7 @@ export default {
   title: 'Gabriel Caiana',
   author: 'Gabriel Caiana',
   description:
-    'Sou um desenvolvedor Frontend apaixonado por tecnologia e design. Sou formado em Análise e desenvolvimento de sistemas pela FIAP, além de possuir diversas formações de especialização em tecnologias de Frontend, Design e UX',
+    'Desenvolvedor front-end, especializado em tecnologias Javascript, Vue, Web Performance e design.',
   siteType: 'website',
   img: '/public/cover.png',
   img_size: { width: '350', height: '350' },
