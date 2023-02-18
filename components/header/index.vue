@@ -8,7 +8,7 @@
         ><Icon name="ph:github-logo-fill" size="24"
       /></a>
 
-      <a href="https://twitter.com/gabrielgueedes" target="_blank"
+      <a href="https://twitter.com/gabriel_caiana" target="_blank"
         ><Icon name="ph:twitter-logo-fill" size="24" />
       </a>
 

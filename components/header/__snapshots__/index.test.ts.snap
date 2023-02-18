@@ -33,7 +33,7 @@ VueWrapper {
             />
           </a>
           <a
-            href="https://twitter.com/gabrielgueedes"
+            href="https://twitter.com/gabriel_caiana"
             target="_blank"
           >
             <icon
@@ -549,7 +549,7 @@ VueWrapper {
                     "dynamicChildren": null,
                     "dynamicProps": null,
                     "el": <a
-                      href="https://twitter.com/gabrielgueedes"
+                      href="https://twitter.com/gabriel_caiana"
                       target="_blank"
                     >
                       <icon
@@ -560,7 +560,7 @@ VueWrapper {
                     "key": null,
                     "patchFlag": 0,
                     "props": {
-                      "href": "https://twitter.com/gabrielgueedes",
+                      "href": "https://twitter.com/gabriel_caiana",
                       "target": "_blank",
                     },
                     "ref": null,
@@ -669,7 +669,7 @@ VueWrapper {
                     />
                   </a>
                   <a
-                    href="https://twitter.com/gabrielgueedes"
+                    href="https://twitter.com/gabriel_caiana"
                     target="_blank"
                   >
                     <icon
@@ -733,7 +733,7 @@ VueWrapper {
                   />
                 </a>
                 <a
-                  href="https://twitter.com/gabrielgueedes"
+                  href="https://twitter.com/gabriel_caiana"
                   target="_blank"
                 >
                   <icon
@@ -810,7 +810,7 @@ VueWrapper {
               />
             </a>
             <a
-              href="https://twitter.com/gabrielgueedes"
+              href="https://twitter.com/gabriel_caiana"
               target="_blank"
             >
               <icon
@@ -930,7 +930,7 @@ VueWrapper {
               />
             </a>
             <a
-              href="https://twitter.com/gabrielgueedes"
+              href="https://twitter.com/gabriel_caiana"
               target="_blank"
             >
               <icon
@@ -1193,7 +1193,7 @@ VueWrapper {
         />
       </a>
       <a
-        href="https://twitter.com/gabrielgueedes"
+        href="https://twitter.com/gabriel_caiana"
         target="_blank"
       >
         <icon

@@ -8,6 +8,6 @@ export default {
   img: '/public/cover.png',
   img_size: { width: '350', height: '350' },
   locale: 'pt-BR',
-  twitter: '@gabrielgueedes',
+  twitter: '@gabriel_caiana',
   twitter_card: 'summary_large_image',
 }

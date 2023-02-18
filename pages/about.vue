@@ -48,7 +48,7 @@ useHead({
           <a href="https://github.com/gabrielcaiana" target="_blank">Github</a>
         </li>
         <li>
-          <a href="https://twitter.com/gabrielgueedes" target="_blank"
+          <a href="https://twitter.com/gabriel_caiana" target="_blank"
             >Twitter</a
           >
         </li>
