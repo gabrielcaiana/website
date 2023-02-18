@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/gabrielcaiana/website/compare/v1.1.0...v1.2.0) (2023-02-18)
+
+
+### Features
+
+* add dev.to link ([cb7e062](https://github.com/gabrielcaiana/website/commit/cb7e062cb6d09693e10858969d8f30989bbf7332))
+* update twitter user ([5246caa](https://github.com/gabrielcaiana/website/commit/5246caaab4b9933f051443a0cde5ffbf5de4181d))
+
 ## [1.1.0](https://github.com/gabrielcaiana/website/compare/v1.0.0...v1.1.0) (2023-01-25)
 
 
