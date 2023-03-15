@@ -19,6 +19,7 @@ const { data: posts } = await useAsyncData('home', () =>
       <h1>
         Desenvolvedor <strong>front-end</strong>, especializado em tecnologias <strong>Javascript</strong>,  <strong>Vue</strong>,
         <strong>Web Performance</strong> e <strong>design</strong>.
+        <br/>
         <nuxt-link to="/about" class="text-blue-300 font-medium underline"
           >Leia mais <Icon name="ph:arrow-right" size="14"
         /></nuxt-link>
