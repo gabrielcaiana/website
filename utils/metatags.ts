@@ -1,6 +1,10 @@
 export default (meta: any) => {
   return [
     {
+      name: 'description',
+      content: meta && meta.description
+    },
+    {
       name: 'author',
       content: meta && meta.author,
     },
