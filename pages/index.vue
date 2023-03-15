@@ -17,8 +17,8 @@ const { data: posts } = await useAsyncData('home', () =>
         Olá, Eu sou <strong>Gabriel Caiana</strong>
       </p>
       <h1>
-        Desenvolvedor front-end, especializado em tecnologias Javascript, Vue,
-        Web Performance e design.
+        Desenvolvedor <strong>front-end</strong>, especializado em tecnologias <strong>Javascript</strong>,  <strong>Vue</strong>,
+        <strong>Web Performance</strong> e <strong>design</strong>.
         <nuxt-link to="/about" class="text-blue-300 font-medium underline"
           >Leia mais <Icon name="ph:arrow-right" size="14"
         /></nuxt-link>
