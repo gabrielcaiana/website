@@ -10,7 +10,16 @@ module.exports = {
     './error.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        neutral: {
+          lightest: "#F3F4F6",
+          light: '#383838',
+          DEFAULT: '#9CA3AF',
+          darkest: '#222222',
+        }
+      }
+    },
   },
   variants: {
     extend: {},
