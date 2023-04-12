@@ -10,6 +10,9 @@ module.exports = {
     './error.vue',
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Roboto', 'sans-serif'],
+    },
     extend: {
       colors: {
         neutral: {

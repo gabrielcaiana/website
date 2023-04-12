@@ -37,16 +37,15 @@ useHead({
   </NuxtLayout>
 </template>
 
-<style>
+<style lang="scss">
 html,
 body,
 #__nuxt {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background: #111;
   color: white;
-  color-scheme: dark;
+  @apply bg-neutral-darkest;
 }
 
 .page-enter-active,
