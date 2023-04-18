@@ -5,7 +5,7 @@ const meta = getSocialMeta(global)
 
 useHead({
   titleTemplate: (title) =>
-    title !== 'Gabriel Caiana' ? `${title} · Gabriel Caiana` : title,
+    title !== global.title ? `${title} · ${global.title}` : title,
   htmlAttrs: {
     lang: 'pt-br',
   },
