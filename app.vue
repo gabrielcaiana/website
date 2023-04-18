@@ -57,4 +57,20 @@ body,
   opacity: 0;
   filter: blur(1rem);
 }
+
+.gradient-text,
+.router-link-exact-active {
+  background-color: white;
+  background-image: linear-gradient(135deg, #a3e635 0%, #22d3ee 100%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.router-link-exact-active {
+  font-weight: 600;
+}
 </style>

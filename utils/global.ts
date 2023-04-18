@@ -1,6 +1,6 @@
 export default {
   url: 'https://gabrielcaiana.com',
-  title: 'Gabriel Caiana',
+  title: 'Gabriel - Desenvolvedor Front-end',
   author: 'Gabriel Caiana',
   description:
     'Desenvolvedor front-end, especializado em tecnologias Javascript, Vue, Web Performance e design.',
