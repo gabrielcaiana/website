@@ -7,6 +7,7 @@ const { data } = await useAsyncData('post', () => {
 const { page } = useContent()
 useContentHead(page)
 </script>
+
 <template>
   <main class="blog-content">
     <header>

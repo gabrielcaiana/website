@@ -21,17 +21,16 @@ const props = defineProps({
 
 <template>
   <nuxt-link :to="path">
-    <div class="flex flex-col md:flex-row gap-4">
+    <div class="flex flex-col gap-4 bg-white/10 w-full rounded-md">
       <NuxtImg
-        class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+        class="w-100 bg-neutral-500 h-[170px] rounded-t-md object-cover"
         provider="cloudinary"
         :src="image"
         :alt="title"
       />
-      <div class="flex flex-col">
-        <span class="text-red-400">Post</span>
-        <span class="text-xl font-medium mb-2">{{ title }}</span>
-        <p class="text-neutral-400">{{ description }}</p>
+      <div class="flex flex-col px-2 pb-6 text-center">
+        <span class="text-xl font-medium mb-2 line-clamp-1">{{ title }}</span>
+        <p class="text-neutral-400 line-clamp-4">{{ description }}</p>
       </div>
     </div>
   </nuxt-link>

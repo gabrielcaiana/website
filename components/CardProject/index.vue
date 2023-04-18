@@ -1,9 +1,5 @@
 <script setup>
 const props = defineProps({
-  type: {
-    type: String,
-    required: true,
-  },
   title: {
     type: String,
     required: true,
@@ -12,31 +8,50 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  image: {
-    type: String,
-    required: true,
-  },
   url: {
     type: String,
     required: true,
   },
+  stack: {
+    type: Array,
+    required: true,
+  },
 })
+
+const randomTailwindColor = () => {
+  const tailwindColors = [
+    'bg-[#E879F9]',
+    'bg-[#A3E635]',
+    'bg-[#38BDF8]',
+    'bg-[#FB7185]',
+    'bg-[#A78BFA]',
+    'bg-[#34D399]',
+    'bg-[#FACC15]',
+    'bg-[#818CF8]',
+  ]
+  const randomIndex = Math.floor(Math.random() * tailwindColors.length)
+  return tailwindColors[randomIndex]
+}
 </script>
 
 <template>
   <a :href="url" target="_blank">
-    <div class="flex flex-col md:flex-row gap-4">
-      <NuxtImg
-        class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md"
-        provider="cloudinary"
-        :src="image"
-        loading="lazy"
-        :alt="title"
-      />
+    <div class="flex flex-col md:flex-row gap-4 bg-white/10 p-4 md:p-10 rounded-md">
       <div class="flex flex-col">
-        <span class="text-red-400">{{ type }}</span>
-        <span class="text-xl font-medium mb-2">{{ title }}</span>
-        <p class="text-neutral-400">{{ description }}</p>
+        <div class="flex flex-col md:flex-row items-center gap-2 mb-3">
+          <span class="text-xl text-center md:text-left font-bold">{{ title }}</span>
+          <ul class="flex flex-wrap justify-center gap-2">
+            <li
+              v-for="(item, index) in stack"
+              :key="index"
+              class="p-1 rounded-md text-neutral-darkest/70 text-sm font-semibold"
+              :class="randomTailwindColor()"
+            >
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+        <p class="text-neutral">{{ description }}</p>
       </div>
     </div>
   </a>

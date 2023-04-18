@@ -37,16 +37,15 @@ useHead({
   </NuxtLayout>
 </template>
 
-<style>
+<style lang="scss">
 html,
 body,
 #__nuxt {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background: #111;
   color: white;
-  color-scheme: dark;
+  @apply bg-neutral-darkest;
 }
 
 .page-enter-active,
@@ -57,5 +56,22 @@ body,
 .page-leave-to {
   opacity: 0;
   filter: blur(1rem);
+}
+
+.gradient-text,
+.router-link-exact-active {
+  background-color: white;
+  background-image: linear-gradient(135deg, #a3e635 0%, #22d3ee 100%);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.router-link-exact-active {
+  font-weight: 600;
 }
 </style>
