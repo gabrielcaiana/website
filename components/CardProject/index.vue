@@ -36,7 +36,7 @@ const randomTailwindColor = () => {
 
 <template>
   <a :href="url" target="_blank">
-    <div class="flex flex-col md:flex-row gap-4 bg-white/10 p-10 rounded-md">
+    <div class="flex flex-col md:flex-row gap-4 bg-white/10 p-4 md:p-10 rounded-md">
       <div class="flex flex-col">
         <div class="flex flex-col md:flex-row items-center gap-2 mb-3">
           <span class="text-xl text-center md:text-left font-bold">{{ title }}</span>

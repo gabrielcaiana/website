@@ -45,18 +45,24 @@ const social = [
     <!-- Hero -->
     <section class="flex justify-between items-center">
       <div>
-        <p class="text-4xl font-medium pb-3">
-          Olá, sou o <strong class="gradient-text">Gabriel Caiana</strong>
-        </p>
-        <h1 class="max-w-[500px] text-xl">
-          Desenvolvedor <strong>front-end</strong>, especializado em tecnologias
-          <strong>Javascript</strong>, <strong>Vue</strong>,
-          <strong>Web Performance</strong> e <strong>design</strong>.
+        <h1 class="text-4xl font-medium pb-3">
+          Desenvolvedor <strong class="gradient-text">Front-end</strong>
         </h1>
+        <h2 class="max-w-[500px] text-xl">
+          Especializado em tecnologias
+          <strong>Javascript</strong>, <strong>Typescript</strong>, <strong>Vue</strong>,
+          <strong>Nuxt</strong>, <strong>Web Performance</strong> e
+          <strong>Design</strong>.
+        </h2>
 
         <div class="flex gap-2 mt-3">
           <a v-for="item in social" :key="social.name" :href="item.url">
-            <img :src="item.icon" :alt="item.name" class="w-[36px]" />
+            <img
+              :src="item.icon"
+              alt="Desenvolvedor front-end e Designer Gabriel Caiana"
+              title="Desenvolvedor front-end e Designer Gabriel Caiana"
+              class="w-[36px]"
+            />
           </a>
         </div>
       </div>
@@ -98,7 +104,7 @@ const social = [
           <strong class="gradient-text">Posts</strong> Recentes
         </h3>
 
-        <nuxt-link to="/posts">
+        <nuxt-link to="/blog">
           <span class="font-bold text-sm mr-2">Ve todos os posts</span>
           <Icon name="ph:arrow-right" />
         </nuxt-link>
