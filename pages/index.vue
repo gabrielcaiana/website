@@ -62,6 +62,7 @@ const social = [
               alt="Desenvolvedor front-end e Designer Gabriel Caiana"
               title="Desenvolvedor front-end e Designer Gabriel Caiana"
               width="36"
+              format="webp"
             />
           </a>
         </div>
