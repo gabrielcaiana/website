@@ -57,11 +57,11 @@ const social = [
 
         <div class="flex gap-2 mt-3">
           <a v-for="item in social" :key="social.name" :href="item.url">
-            <img
+            <NuxtImg
               :src="item.icon"
               alt="Desenvolvedor front-end e Designer Gabriel Caiana"
               title="Desenvolvedor front-end e Designer Gabriel Caiana"
-              class="w-[36px]"
+              width="36"
             />
           </a>
         </div>

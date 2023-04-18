@@ -23,10 +23,13 @@ const props = defineProps({
   <nuxt-link :to="path">
     <div class="flex flex-col gap-4 bg-white/10 w-full rounded-md">
       <NuxtImg
-        class="w-100 bg-neutral-500 h-[170px] rounded-t-md object-cover"
+        class="bg-neutral-500 h-[170px] rounded-t-md"
         provider="cloudinary"
+        width="100%"
+        height="170px"
         :src="image"
         :alt="title"
+        fit="cover"
       />
       <div class="flex flex-col px-2 pb-6 text-center">
         <span class="text-xl font-medium mb-2 line-clamp-1">{{ title }}</span>
