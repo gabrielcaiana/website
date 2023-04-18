@@ -59,8 +59,8 @@ const social = [
           <a v-for="item in social" :key="social.name" :href="item.url">
             <NuxtImg
               :src="item.icon"
-              alt="Desenvolvedor front-end e Designer Gabriel Caiana"
-              title="Desenvolvedor front-end e Designer Gabriel Caiana"
+              :alt="item.name"
+              :title="item.name"
               width="36"
               format="webp"
             />
@@ -69,7 +69,14 @@ const social = [
       </div>
 
       <div class="hidden md:block">
-        <img src="/avatar.png" alt="avatar" />
+        <NuxtImg
+          src="/avatar.png"
+          title="Desenvolvedor front-end e Designer Gabriel Caiana"
+          alt="Desenvolvedor front-end e Designer Gabriel Caiana"
+          format="webp"
+          width="100%"
+          height="100%"
+        />
       </div>
     </section>
 
