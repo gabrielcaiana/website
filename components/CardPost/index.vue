@@ -31,6 +31,8 @@ const props = defineProps({
         :alt="title"
         fit="cover"
         format="webp"
+        loading="lazy"
+        quality="80"
       />
       <div class="flex flex-col px-2 pb-6 text-center">
         <span class="text-xl font-medium mb-2 line-clamp-1">{{ title }}</span>
