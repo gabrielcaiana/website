@@ -80,7 +80,7 @@ const social = [
         </h2>
 
         <nuxt-link to="/projects">
-          <span class="font-bold text-sm mr-2">Ve todos os posts</span>
+          <span class="font-bold text-sm mr-2">Ve todos os projetos</span>
           <Icon name="ph:arrow-right" />
         </nuxt-link>
       </div>
