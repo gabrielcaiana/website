@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useHead({
+  title: 'Projetos',
+})
+
 interface IProjects {
   name: string
   description: string
