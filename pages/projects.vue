@@ -11,7 +11,7 @@ const { projects } = (await $fetch('/api/algolia/projects')) as {
   projects: IProjects[]
 }
 
-const dataProjects = projects.slice(0, 3).map((project: IProjects) => ({
+const dataProjects = projects.map((project: IProjects) => ({
   name: project.name,
   description: project.description,
   url: project.url,
