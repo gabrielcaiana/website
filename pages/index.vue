@@ -50,9 +50,9 @@ const social = [
         </h1>
         <h2 class="max-w-[500px] text-xl">
           Especializado em tecnologias
-          <strong>Javascript</strong>, <strong>Typescript</strong>, <strong>Vue</strong>,
-          <strong>Nuxt</strong>, <strong>Web Performance</strong> e
-          <strong>Design</strong>.
+          <strong>Javascript</strong>, <strong>Typescript</strong>,
+          <strong>Vue</strong>, <strong>Nuxt</strong>,
+          <strong>Web Performance</strong> e <strong>Design</strong>.
         </h2>
 
         <div class="flex gap-2 mt-3">
@@ -88,7 +88,7 @@ const social = [
         </h2>
 
         <nuxt-link to="/projects">
-          <span class="font-bold text-sm mr-2">Ve todos os projetos</span>
+          <span class="font-bold text-sm mr-2">Ver todos os projetos</span>
           <Icon name="ph:arrow-right" />
         </nuxt-link>
       </div>
@@ -113,7 +113,7 @@ const social = [
         </h3>
 
         <nuxt-link to="/blog">
-          <span class="font-bold text-sm mr-2">Ve todos os posts</span>
+          <span class="font-bold text-sm mr-2">Ver todos os posts</span>
           <Icon name="ph:arrow-right" />
         </nuxt-link>
       </div>
