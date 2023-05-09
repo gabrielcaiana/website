@@ -43,6 +43,7 @@ export default defineNuxtConfig({
     algoliaApiKey: process.env.ALGOLIA_API_KEY,
     public: {
       googleId: process.env.GOOGLE_ID,
+      clarityId: process.env.CLARITY_ID,
     },
   },
   postcss: {
