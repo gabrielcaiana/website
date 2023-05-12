@@ -52,4 +52,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  routeRules: {
+    '/**': { isr: 60 },
+  },
 })

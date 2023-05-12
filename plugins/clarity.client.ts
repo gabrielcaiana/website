@@ -1,4 +1,4 @@
-export default defineNuxtPlugin((nuxtApp) => {
+export default defineNuxtPlugin(() => {
   const { clarityId } = useRuntimeConfig()
   const scriptID = 'nuxt-microsoft-clarity'
 

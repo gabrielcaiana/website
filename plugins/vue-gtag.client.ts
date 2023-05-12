@@ -9,6 +9,6 @@ export default defineNuxtPlugin((nuxtApp) => {
         id: googleId,
       },
     },
-    nuxtApp.$router
+    nuxtApp.$router as any
   )
 })
