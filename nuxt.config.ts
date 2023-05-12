@@ -54,5 +54,6 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/**': { isr: 86400 },
+    '/about': { isr: true },
   },
 })
