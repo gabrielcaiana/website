@@ -52,9 +52,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  routeRules: {
-    '/**': { isr: 86400 },
-    '/about': { isr: true },
-    '/blog/**': { isr: false },
-  },
+  // routeRules: {
+  //   '/**': { isr: 86400 },
+  //   '/about': { isr: true },
+  //   '/blog/**': { isr: false },
+  // },
 })
