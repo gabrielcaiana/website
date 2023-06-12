@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.3.0](https://github.com/gabrielcaiana/website/compare/v1.2.0...v1.3.0) (2023-06-12)
+
+
+### Features
+
+* add clarity ([745b8a9](https://github.com/gabrielcaiana/website/commit/745b8a92fdfefa1f4c28cd8a530be14c00f88a72))
+* add vercel cache ([f665963](https://github.com/gabrielcaiana/website/commit/f665963dfc41a0d1e5ca4531614b43a0f70438ef))
+* cache isr ([a2b474d](https://github.com/gabrielcaiana/website/commit/a2b474d60d46bf477fcf3a38bd5c5ad7280e255f))
+* cache isr ([bfd8a3e](https://github.com/gabrielcaiana/website/commit/bfd8a3e65cc5bf4d1cfc74088a5e1fd69e946264))
+* cache isr ([9904ca6](https://github.com/gabrielcaiana/website/commit/9904ca6fa957759ab59a05cb2857ff68a2aa1da8))
+* cache prerender ([c8a4712](https://github.com/gabrielcaiana/website/commit/c8a4712e9e27c31df5a23266e01a171e1ff8fd10))
+
+
+### Bug Fixes
+
+* remove blog posts cache ([3d8026c](https://github.com/gabrielcaiana/website/commit/3d8026cc45549b4102ae20a488df14e4895850fb))
+* remove cache ([804a11f](https://github.com/gabrielcaiana/website/commit/804a11fa6116598c3e7dd8a0cfb42f80284d5d2b))
+* text link ([b77db75](https://github.com/gabrielcaiana/website/commit/b77db7559df7d7dc3fab835586f5542cc6791f89))
+
 ## [1.2.0](https://github.com/gabrielcaiana/website/compare/v1.1.0...v1.2.0) (2023-02-18)
 
 
