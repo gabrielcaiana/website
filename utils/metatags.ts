@@ -19,47 +19,47 @@ export default (meta: any) => {
     // Facebook & LinkedIn
     {
       hid: 'og:title',
-      name: 'og:title',
+      property: 'og:title',
       content: meta?.title || '',
     },
     {
       hid: 'og:description',
-      name: 'og:description',
+      property: 'og:description',
       content: meta?.description || '',
     },
     {
       hid: 'og:type',
-      name: 'og:type',
+      property: 'og:type',
       content: meta?.siteType || 'website',
     },
     {
       hid: 'og:url',
-      name: 'og:url',
+      property: 'og:url',
       content: meta?.url || '',
     },
     {
       hid: 'og:image',
-      name: 'og:image',
+      property: 'og:image',
       content: meta?.img || '',
     },
     {
       hid: 'og:image:width',
-      name: 'og:image:width',
+      property: 'og:image:width',
       content: meta?.img_size?.width || '',
     },
     {
       hid: 'og:image:height',
-      name: 'og:image:height',
+      property: 'og:image:height',
       content: meta?.img_size?.height || '',
     },
     {
       hid: 'og:locale',
-      name: 'og:locale',
+      property: 'og:locale',
       content: meta?.locale || 'pt-BR',
     },
     {
       hid: 'og:site_name',
-      name: 'og:site_name',
+      property: 'og:site_name',
       content: meta?.title || '',
     },
     // Twitter
