@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/gabrielcaiana/website/compare/v1.3.0...v1.3.1) (2023-07-16)
+
+
+### Bug Fixes
+
+* optimize SEO ([b54767a](https://github.com/gabrielcaiana/website/commit/b54767a5a448f2e469d2457a156c41ff3d6d7a0d))
+
 ## [1.3.0](https://github.com/gabrielcaiana/website/compare/v1.2.0...v1.3.0) (2023-06-12)
 
 
