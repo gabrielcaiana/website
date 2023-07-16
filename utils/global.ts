@@ -1,13 +1,13 @@
 export default {
-  url: 'https://gabrielcaiana.com',
+  url: 'https://www.gabrielcaiana.com',
   title: 'Gabriel Caiana | Desenvolvedor Front-end',
   author: 'Gabriel Caiana',
   description:
-    'Desenvolvedor front-end e Designer especializado em tecnologias como Javascript, Typescript, Vue e Nuxt. Apaixonado por otimização de performance web e usabilidade.',
+    'Desenvolvedor front-end e Designer especializado em tecnologias como Javascript, Typescript, Vue, Nuxt e Nodejs',
   siteType: 'website',
-  img: '/public/cover.png',
+  img: 'cover.png',
   img_size: { width: '350', height: '350' },
   locale: 'pt-BR',
   twitter: '@gabriel_caiana',
-  twitter_card: 'summary_large_image',
+  twitter_card: 'summary',
 }
