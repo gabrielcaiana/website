@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
   },
-  ssr: false,
   css: ['@/assets/css/tailwind.css'],
   components: [{ path: '@/components', pathPrefix: false }],
   modules: [
