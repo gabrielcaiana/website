@@ -1,109 +1,109 @@
 export default (meta: any) => {
-  return [
+  const metaTags = [
     {
       name: 'description',
-      content: meta && meta.description
+      content: meta?.description || '',
     },
     {
       name: 'author',
-      content: meta && meta.author,
+      content: meta?.author || '',
     },
     {
       name: 'publisher',
-      content: meta && meta.author,
+      content: meta?.author || '',
     },
     {
       name: 'apple-mobile-web-app-title',
-      content: meta && meta.title,
+      content: meta?.title || '',
     },
-
     // Facebook & LinkedIn
     {
       hid: 'og:title',
       name: 'og:title',
-      content: meta && meta.title,
+      content: meta?.title || '',
     },
     {
       hid: 'og:description',
       name: 'og:description',
-      content: meta && meta.description,
+      content: meta?.description || '',
     },
     {
       hid: 'og:type',
       name: 'og:type',
-      content: 'website',
+      content: meta?.siteType || 'website',
     },
     {
       hid: 'og:url',
       name: 'og:url',
-      content: meta && meta.url,
+      content: meta?.url || '',
     },
     {
-      hid: 'og:img',
-      name: 'og:img',
-      content: meta && meta.img,
+      hid: 'og:image',
+      name: 'og:image',
+      content: meta?.img || '',
     },
     {
       hid: 'og:image:width',
       name: 'og:image:width',
-      content: meta && meta.img_size?.width,
+      content: meta?.img_size?.width || '',
     },
     {
       hid: 'og:image:height',
       name: 'og:image:height',
-      content: meta && meta.img_size?.height,
+      content: meta?.img_size?.height || '',
     },
     {
       hid: 'og:locale',
       name: 'og:locale',
-      content: meta && meta.locale,
+      content: meta?.locale || 'pt-BR',
     },
     {
       hid: 'og:site_name',
       name: 'og:site_name',
-      content: meta && meta.title,
+      content: meta?.title || '',
     },
-
     // Twitter
     {
       hid: 'twitter:card',
       name: 'twitter:card',
-      content: meta && meta.twitter_card,
+      content: meta?.twitter_card || 'summary_large_image',
     },
     {
       hid: 'twitter:site',
       name: 'twitter:site',
-      content: meta && meta.twitter,
+      content: meta?.twitter || '',
     },
     {
       hid: 'twitter:creator',
       name: 'twitter:creator',
-      content: meta && meta.twitter,
+      content: meta?.twitter || '',
     },
     {
       hid: 'twitter:title',
       name: 'twitter:title',
-      content: meta && meta.title,
+      content: meta?.title || '',
     },
     {
       hid: 'twitter:description',
       name: 'twitter:description',
-      content: meta && meta.description,
+      content: meta?.description || '',
     },
     {
       hid: 'twitter:image',
       name: 'twitter:image',
-      content: meta && meta.img,
+      content: meta?.img || '',
     },
     {
       hid: 'twitter:image:width',
       name: 'twitter:image:width',
-      content: meta && meta.img_size?.width,
+      content: meta?.img_size?.width || '',
     },
     {
       hid: 'twitter:image:height',
       name: 'twitter:image:height',
-      content: meta && meta.img_size?.height,
+      content: meta?.img_size?.height || '',
     },
   ]
+
+  return metaTags
 }

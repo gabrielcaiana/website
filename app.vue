@@ -27,6 +27,24 @@ useHead({
       href: '/favicon.png',
     },
   ],
+  script: [
+    {
+      hid: 'schema-org',
+      type: 'application/ld+json',
+      json: {
+        '@context': 'https://schema.org',
+        '@type': 'Person',
+        name: 'Gabriel Caiana',
+        jobTitle: 'Desenvolvedor Front-end',
+        url: 'https://gabrielcaiana.com',
+        sameAs: [
+          'https://www.linkedin.com/in/gabrielcaiana',
+          'https://github.com/gabrielcaiana',
+          'https://twitter.com/gabriel_caiana',
+        ],
+      },
+    },
+  ],
 })
 </script>
 

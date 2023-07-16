@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /secret-page/
+
+Allow: /$
+
+Sitemap: https://gabrielcaiana.com/sitemap.xml
