@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/gabrielcaiana/website/compare/v1.3.1...v1.3.2) (2023-07-16)
+
+
+### Bug Fixes
+
+* og schema ([297531f](https://github.com/gabrielcaiana/website/commit/297531f14a96b150b2df090b1efaa2843b77b19c))
+
 ## [1.3.1](https://github.com/gabrielcaiana/website/compare/v1.3.0...v1.3.1) (2023-07-16)
 
 
