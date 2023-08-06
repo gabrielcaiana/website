@@ -80,31 +80,6 @@ const social = [
       </div>
     </section>
 
-    <!-- Projects -->
-    <section>
-      <div class="flex justify-between items-center mb-6">
-        <h2 class="text-xl font-bold">
-          <strong class="gradient-text">Projetos</strong> Recentes
-        </h2>
-
-        <nuxt-link to="/projects">
-          <span class="font-bold text-sm mr-2">Ver todos os projetos</span>
-          <Icon name="ph:arrow-right" />
-        </nuxt-link>
-      </div>
-
-      <div class="flex flex-col gap-[48px]">
-        <CardProject
-          v-for="{ name, description, url, stack } in dataProjects"
-          :key="name"
-          :title="name"
-          :description="description"
-          :url="url"
-          :stack="stack"
-        />
-      </div>
-    </section>
-
     <!-- Posts -->
     <section>
       <div class="flex justify-between items-center mb-6">
@@ -126,6 +101,31 @@ const social = [
           :description="description"
           :image="img"
           :path="_path"
+        />
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-xl font-bold">
+          <strong class="gradient-text">Projetos</strong> Recentes
+        </h2>
+
+        <nuxt-link to="/projects">
+          <span class="font-bold text-sm mr-2">Ver todos os projetos</span>
+          <Icon name="ph:arrow-right" />
+        </nuxt-link>
+      </div>
+
+      <div class="flex flex-col gap-[48px]">
+        <CardProject
+          v-for="{ name, description, url, stack } in dataProjects"
+          :key="name"
+          :title="name"
+          :description="description"
+          :url="url"
+          :stack="stack"
         />
       </div>
     </section>
