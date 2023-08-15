@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/gabrielcaiana/website/compare/v1.3.2...v1.4.0) (2023-08-15)
+
+
+### Features
+
+* change blog to top page ([b8f374d](https://github.com/gabrielcaiana/website/commit/b8f374d8fc701367247ab8d8700ab4ecfe17e233))
+
 ## [1.3.2](https://github.com/gabrielcaiana/website/compare/v1.3.1...v1.3.2) (2023-07-16)
 
 
