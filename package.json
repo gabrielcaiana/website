@@ -43,7 +43,6 @@
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0",
-    "@vercel/analytics": "^1.0.1",
     "algoliasearch": "^4.17.0",
     "vue-gtag": "^2.0.1"
   }
