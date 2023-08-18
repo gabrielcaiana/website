@@ -4,7 +4,7 @@ export default {
     'Gabriel Caiana | Desenvolvedor Front-end Especializado em JavaScript, TypeScript, Vue e Nuxt',
   author: 'Gabriel Caiana',
   description:
-    'Sou um Desenvolvedor Front-end Especializado em tecnologias como JavaScript, TypeScript, Vue e Nuxt. Explore meu portfólio e experiência em desenvolvimento de software.',
+    'Desenvolvedor Front-end Sênior especializado em JavaScript, TypeScript, Vue e Nuxt.',
   siteType: 'website',
   img: 'cover.png',
   img_size: { width: '350', height: '350' },

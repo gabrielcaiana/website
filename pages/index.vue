@@ -1,7 +1,6 @@
 <script setup>
 useHead({
-  title:
-    'Desenvolvedor Front-end Especializado em Tecnologias JavaScript, Vue e Nuxt',
+  title: 'Home',
 })
 
 const { projects } = await $fetch('/api/algolia/projects')

@@ -4,7 +4,7 @@ import getSocialMeta from '~/utils/metatags'
 const meta = getSocialMeta(global)
 
 useHead({
-  titleTemplate: (title) =>
+  titleTemplate: (title = '') =>
     title !== global.title ? `${title} · ${global.title}` : title,
   htmlAttrs: {
     lang: 'pt-br',
