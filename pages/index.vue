@@ -1,8 +1,4 @@
 <script setup>
-useHead({
-  title: 'Home',
-})
-
 const { projects } = await $fetch('/api/algolia/projects')
 
 const dataProjects = projects.slice(0, 3).map((project) => ({

@@ -5,7 +5,9 @@ const meta = getSocialMeta(global)
 
 useHead({
   titleTemplate: (title = '') =>
-    title !== global.title ? `${title} · ${global.title}` : title,
+    title !== global.title && title !== ''
+      ? `${title} · ${global.title}`
+      : global.title,
   htmlAttrs: {
     lang: 'pt-br',
   },

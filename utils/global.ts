@@ -1,7 +1,6 @@
 export default {
   url: 'https://www.gabrielcaiana.com',
-  title:
-    'Gabriel Caiana | Desenvolvedor Front-end Especializado em JavaScript, TypeScript, Vue e Nuxt',
+  title: 'Gabriel Caiana | Desenvolvedor Front-end',
   author: 'Gabriel Caiana',
   description:
     'Desenvolvedor Front-end Sênior especializado em JavaScript, TypeScript, Vue e Nuxt.',
