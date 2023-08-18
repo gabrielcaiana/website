@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/gabrielcaiana/website/compare/v1.4.0...v1.5.0) (2023-08-18)
+
+
+### Features
+
+* update infos ([37f685a](https://github.com/gabrielcaiana/website/commit/37f685a8582138366c63994a25fea55211cc668e))
+
+
+### Bug Fixes
+
+* meta tags ([c96b80f](https://github.com/gabrielcaiana/website/commit/c96b80f9f41475f2dc68d4d2657117282ab13990))
+
 ## [1.4.0](https://github.com/gabrielcaiana/website/compare/v1.3.2...v1.4.0) (2023-08-15)
 
 
