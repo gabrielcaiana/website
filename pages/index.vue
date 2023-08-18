@@ -1,6 +1,7 @@
 <script setup>
 useHead({
-  title: 'Início',
+  title:
+    'Desenvolvedor Front-end Especializado em Tecnologias JavaScript, Vue e Nuxt',
 })
 
 const { projects } = await $fetch('/api/algolia/projects')
@@ -20,22 +21,17 @@ const social = [
   {
     name: 'twitter',
     url: 'https://twitter.com/gabriel_caiana',
-    icon: '/icons/twitter.png',
+    icon: 'tabler:brand-twitter',
   },
   {
     name: 'linkedin',
     url: 'https://www.linkedin.com/in/gabrielcaiana/',
-    icon: '/icons/linkedin.png',
+    icon: 'tabler:brand-linkedin',
   },
   {
     name: 'github',
     url: 'https://github.com/gabrielcaiana',
-    icon: '/icons/github.png',
-  },
-  {
-    name: 'youtube',
-    url: 'https://www.youtube.com/@gabrielcaiana',
-    icon: '/icons/youtube.png',
+    icon: 'tabler:brand-github',
   },
 ]
 </script>
@@ -43,40 +39,35 @@ const social = [
 <template>
   <main class="flex flex-col gap-[80px]">
     <!-- Hero -->
-    <section class="flex justify-between items-center">
+    <section class="flex justify-center items-center">
       <div>
-        <h1 class="text-4xl font-medium pb-3">
-          Desenvolvedor <strong class="gradient-text">Front-end</strong>
+        <h1 class="text-2xl md:text-4xl text-center font-medium pb-3">
+          Desenvolvedor <strong>Front-end</strong>
         </h1>
-        <h2 class="max-w-[500px] text-xl">
-          Especializado em tecnologias
-          <strong>Javascript</strong>, <strong>Typescript</strong>,
-          <strong>Vue</strong>, <strong>Nuxt</strong>,
-          <strong>Web Performance</strong> e <strong>Design</strong>.
+        <h2 class="max-w-[500px] md:text-xl text-center">
+          Especializado em Desenvolvimento Front-end com Domínio de Tecnologias
+          como <strong>JavaScript</strong>, <strong>TypeScript</strong>,
+          <strong>Vue</strong>, <strong>Nuxt</strong> e
+          <strong>Node.js</strong>.
         </h2>
 
-        <div class="flex gap-2 mt-3">
-          <a v-for="item in social" :key="social.name" :href="item.url">
-            <NuxtImg
-              :src="item.icon"
+        <div class="flex justify-center gap-2 mt-3">
+          <a
+            v-for="item in social"
+            :key="social.name"
+            :href="item.url"
+            target="_blank"
+          >
+            <Icon
+              class="hover:scale-125 transition-transform"
+              :name="item.icon"
+              size="24"
               :alt="item.name"
               :title="item.name"
-              width="36"
-              format="webp"
+              :aria-label="`Link para ${item.name}`"
             />
           </a>
         </div>
-      </div>
-
-      <div class="hidden md:block">
-        <NuxtImg
-          src="/avatar.png"
-          title="Desenvolvedor front-end e Designer Gabriel Caiana"
-          alt="Desenvolvedor front-end e Designer Gabriel Caiana"
-          format="webp"
-          width="100%"
-          height="100%"
-        />
       </div>
     </section>
 
