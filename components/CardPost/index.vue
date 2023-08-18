@@ -21,7 +21,9 @@ const props = defineProps({
 
 <template>
   <nuxt-link :to="path">
-    <div class="flex flex-col gap-4 bg-white/10 w-full rounded-md">
+    <div
+      class="flex flex-col gap-4 bg-white/10 w-full rounded-md hover:scale-105 transition-transform"
+    >
       <NuxtImg
         class="bg-neutral-500 h-[170px] rounded-t-md"
         provider="cloudinary"
