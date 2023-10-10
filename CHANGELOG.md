@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/gabrielcaiana/website/compare/v1.5.0...v1.5.1) (2023-10-10)
+
+
+### Bug Fixes
+
+* meta title ([0a697d5](https://github.com/gabrielcaiana/website/commit/0a697d5d4edbbe2b9f5548535abd49a7d8f154fb))
+
 ## [1.5.0](https://github.com/gabrielcaiana/website/compare/v1.4.0...v1.5.0) (2023-08-18)
 
 
