@@ -1,4 +1,4 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`CardPost > should render CardPost 1`] = `
 VueWrapper {
@@ -15,29 +15,30 @@ VueWrapper {
         to="/what-are-micro-frontends"
       >
         <div
-          class="flex flex-col md:flex-row gap-4"
+          class="flex flex-col gap-4 bg-white/10 w-full rounded-md hover:scale-105 transition-transform"
         >
           <nuxtimg
             alt="O que são micro frontends"
-            class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+            class="bg-neutral-500 h-[170px] rounded-t-md"
+            fit="cover"
+            format="webp"
+            height="170px"
+            loading="lazy"
             provider="cloudinary"
+            quality="80"
             src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png"
+            width="100%"
           />
           <div
-            class="flex flex-col"
+            class="flex flex-col px-2 pb-6 text-center"
           >
             <span
-              class="text-red-400"
-            >
-              Post
-            </span>
-            <span
-              class="text-xl font-medium mb-2"
+              class="text-xl font-medium mb-2 line-clamp-1"
             >
               O que são micro frontends
             </span>
             <p
-              class="text-neutral-400"
+              class="text-neutral-400 line-clamp-4"
             >
               O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
             </p>
@@ -113,6 +114,7 @@ VueWrapper {
       "asyncDep": null,
       "asyncResolved": false,
       "attrs": {},
+      "attrsProxy": null,
       "bc": null,
       "bm": null,
       "bu": null,
@@ -136,36 +138,41 @@ VueWrapper {
       "directives": null,
       "ec": null,
       "effect": ReactiveEffect {
+        "_depsLength": 7,
+        "_dirtyLevel": 0,
+        "_runnings": 0,
+        "_shouldSchedule": false,
+        "_trackId": 1,
         "active": true,
         "allowRecurse": true,
         "deps": [
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
         ],
         "fn": [Function],
         "onTrack": undefined,
         "onTrigger": undefined,
-        "parent": undefined,
         "scheduler": [Function],
+        "trigger": [Function],
       },
       "emit": [Function],
       "emitsOptions": null,
@@ -198,41 +205,46 @@ VueWrapper {
       "rtc": null,
       "rtg": null,
       "scope": EffectScope {
-        "active": true,
+        "_active": true,
         "cleanups": [],
         "detached": true,
         "effects": [
           ReactiveEffect {
+            "_depsLength": 7,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
             "active": true,
             "allowRecurse": true,
             "deps": [
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
             ],
             "fn": [Function],
             "onTrack": undefined,
             "onTrigger": undefined,
-            "parent": undefined,
             "scheduler": [Function],
+            "trigger": [Function],
           },
         ],
         "parent": undefined,
@@ -242,6 +254,7 @@ VueWrapper {
         "VTU_COMPONENT": {},
       },
       "slots": {},
+      "slotsProxy": null,
       "sp": null,
       "subTree": {
         "__v_isVNode": true,
@@ -286,6 +299,7 @@ VueWrapper {
           "asyncDep": null,
           "asyncResolved": false,
           "attrs": {},
+          "attrsProxy": null,
           "bc": null,
           "bm": null,
           "bu": null,
@@ -311,27 +325,32 @@ VueWrapper {
           "directives": null,
           "ec": null,
           "effect": ReactiveEffect {
+            "_depsLength": 4,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
             "active": true,
             "allowRecurse": true,
             "deps": [
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
             ],
             "fn": [Function],
             "onTrack": undefined,
             "onTrigger": undefined,
-            "parent": undefined,
             "scheduler": [Function],
+            "trigger": [Function],
           },
           "emit": [Function],
           "emitsOptions": null,
@@ -395,32 +414,37 @@ VueWrapper {
           "rtc": null,
           "rtg": null,
           "scope": EffectScope {
-            "active": true,
+            "_active": true,
             "cleanups": [],
             "detached": true,
             "effects": [
               ReactiveEffect {
+                "_depsLength": 4,
+                "_dirtyLevel": 0,
+                "_runnings": 0,
+                "_shouldSchedule": false,
+                "_trackId": 1,
                 "active": true,
                 "allowRecurse": true,
                 "deps": [
-                  Set {
-                    [Circular],
+                  Map {
+                    [Circular] => 1,
                   },
-                  Set {
-                    [Circular],
+                  Map {
+                    [Circular] => 1,
                   },
-                  Set {
-                    [Circular],
+                  Map {
+                    [Circular] => 1,
                   },
-                  Set {
-                    [Circular],
+                  Map {
+                    [Circular] => 1,
                   },
                 ],
                 "fn": [Function],
                 "onTrack": undefined,
                 "onTrigger": undefined,
-                "parent": undefined,
                 "scheduler": [Function],
+                "trigger": [Function],
               },
             ],
             "parent": undefined,
@@ -440,6 +464,7 @@ VueWrapper {
             },
           },
           "slots": {},
+          "slotsProxy": {},
           "sp": null,
           "subTree": {
             "__v_isVNode": true,
@@ -469,17 +494,29 @@ VueWrapper {
                     ],
                     "el": <nuxtimg
                       alt="O que são micro frontends"
-                      class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+                      class="bg-neutral-500 h-[170px] rounded-t-md"
+                      fit="cover"
+                      format="webp"
+                      height="170px"
+                      loading="lazy"
                       provider="cloudinary"
+                      quality="80"
                       src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png"
+                      width="100%"
                     />,
                     "key": null,
                     "patchFlag": 8,
                     "props": {
                       "alt": "O que são micro frontends",
-                      "class": "w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover",
+                      "class": "bg-neutral-500 h-[170px] rounded-t-md",
+                      "fit": "cover",
+                      "format": "webp",
+                      "height": "170px",
+                      "loading": "lazy",
                       "provider": "cloudinary",
+                      "quality": "80",
                       "src": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png",
+                      "width": "100%",
                     },
                     "ref": null,
                     "scopeId": null,
@@ -505,40 +542,6 @@ VueWrapper {
                         "__v_skip": true,
                         "anchor": null,
                         "appContext": null,
-                        "children": "Post",
-                        "component": null,
-                        "ctx": null,
-                        "dirs": null,
-                        "dynamicChildren": null,
-                        "dynamicProps": null,
-                        "el": <span
-                          class="text-red-400"
-                        >
-                          Post
-                        </span>,
-                        "key": null,
-                        "patchFlag": -1,
-                        "props": {
-                          "class": "text-red-400",
-                        },
-                        "ref": null,
-                        "scopeId": null,
-                        "shapeFlag": 9,
-                        "slotScopeIds": null,
-                        "ssContent": null,
-                        "ssFallback": null,
-                        "staticCount": 0,
-                        "suspense": null,
-                        "target": null,
-                        "targetAnchor": null,
-                        "transition": null,
-                        "type": "span",
-                      },
-                      {
-                        "__v_isVNode": true,
-                        "__v_skip": true,
-                        "anchor": null,
-                        "appContext": null,
                         "children": "O que são micro frontends",
                         "component": null,
                         "ctx": [Circular],
@@ -546,14 +549,14 @@ VueWrapper {
                         "dynamicChildren": null,
                         "dynamicProps": null,
                         "el": <span
-                          class="text-xl font-medium mb-2"
+                          class="text-xl font-medium mb-2 line-clamp-1"
                         >
                           O que são micro frontends
                         </span>,
                         "key": null,
                         "patchFlag": 1,
                         "props": {
-                          "class": "text-xl font-medium mb-2",
+                          "class": "text-xl font-medium mb-2 line-clamp-1",
                         },
                         "ref": null,
                         "scopeId": null,
@@ -580,14 +583,14 @@ VueWrapper {
                         "dynamicChildren": null,
                         "dynamicProps": null,
                         "el": <p
-                          class="text-neutral-400"
+                          class="text-neutral-400 line-clamp-4"
                         >
                           O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
                         </p>,
                         "key": null,
                         "patchFlag": 1,
                         "props": {
-                          "class": "text-neutral-400",
+                          "class": "text-neutral-400 line-clamp-4",
                         },
                         "ref": null,
                         "scopeId": null,
@@ -609,20 +612,15 @@ VueWrapper {
                     "dynamicChildren": null,
                     "dynamicProps": null,
                     "el": <div
-                      class="flex flex-col"
+                      class="flex flex-col px-2 pb-6 text-center"
                     >
                       <span
-                        class="text-red-400"
-                      >
-                        Post
-                      </span>
-                      <span
-                        class="text-xl font-medium mb-2"
+                        class="text-xl font-medium mb-2 line-clamp-1"
                       >
                         O que são micro frontends
                       </span>
                       <p
-                        class="text-neutral-400"
+                        class="text-neutral-400 line-clamp-4"
                       >
                         O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
                       </p>
@@ -630,7 +628,7 @@ VueWrapper {
                     "key": null,
                     "patchFlag": 0,
                     "props": {
-                      "class": "flex flex-col",
+                      "class": "flex flex-col px-2 pb-6 text-center",
                     },
                     "ref": null,
                     "scopeId": null,
@@ -652,29 +650,30 @@ VueWrapper {
                 "dynamicChildren": null,
                 "dynamicProps": null,
                 "el": <div
-                  class="flex flex-col md:flex-row gap-4"
+                  class="flex flex-col gap-4 bg-white/10 w-full rounded-md hover:scale-105 transition-transform"
                 >
                   <nuxtimg
                     alt="O que são micro frontends"
-                    class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+                    class="bg-neutral-500 h-[170px] rounded-t-md"
+                    fit="cover"
+                    format="webp"
+                    height="170px"
+                    loading="lazy"
                     provider="cloudinary"
+                    quality="80"
                     src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png"
+                    width="100%"
                   />
                   <div
-                    class="flex flex-col"
+                    class="flex flex-col px-2 pb-6 text-center"
                   >
                     <span
-                      class="text-red-400"
-                    >
-                      Post
-                    </span>
-                    <span
-                      class="text-xl font-medium mb-2"
+                      class="text-xl font-medium mb-2 line-clamp-1"
                     >
                       O que são micro frontends
                     </span>
                     <p
-                      class="text-neutral-400"
+                      class="text-neutral-400 line-clamp-4"
                     >
                       O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
                     </p>
@@ -683,7 +682,7 @@ VueWrapper {
                 "key": null,
                 "patchFlag": 0,
                 "props": {
-                  "class": "flex flex-col md:flex-row gap-4",
+                  "class": "flex flex-col gap-4 bg-white/10 w-full rounded-md hover:scale-105 transition-transform",
                 },
                 "ref": null,
                 "scopeId": null,
@@ -719,17 +718,29 @@ VueWrapper {
                 ],
                 "el": <nuxtimg
                   alt="O que são micro frontends"
-                  class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+                  class="bg-neutral-500 h-[170px] rounded-t-md"
+                  fit="cover"
+                  format="webp"
+                  height="170px"
+                  loading="lazy"
                   provider="cloudinary"
+                  quality="80"
                   src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png"
+                  width="100%"
                 />,
                 "key": null,
                 "patchFlag": 8,
                 "props": {
                   "alt": "O que são micro frontends",
-                  "class": "w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover",
+                  "class": "bg-neutral-500 h-[170px] rounded-t-md",
+                  "fit": "cover",
+                  "format": "webp",
+                  "height": "170px",
+                  "loading": "lazy",
                   "provider": "cloudinary",
+                  "quality": "80",
                   "src": "https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png",
+                  "width": "100%",
                 },
                 "ref": null,
                 "scopeId": null,
@@ -756,14 +767,14 @@ VueWrapper {
                 "dynamicChildren": null,
                 "dynamicProps": null,
                 "el": <span
-                  class="text-xl font-medium mb-2"
+                  class="text-xl font-medium mb-2 line-clamp-1"
                 >
                   O que são micro frontends
                 </span>,
                 "key": null,
                 "patchFlag": 1,
                 "props": {
-                  "class": "text-xl font-medium mb-2",
+                  "class": "text-xl font-medium mb-2 line-clamp-1",
                 },
                 "ref": null,
                 "scopeId": null,
@@ -790,14 +801,14 @@ VueWrapper {
                 "dynamicChildren": null,
                 "dynamicProps": null,
                 "el": <p
-                  class="text-neutral-400"
+                  class="text-neutral-400 line-clamp-4"
                 >
                   O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
                 </p>,
                 "key": null,
                 "patchFlag": 1,
                 "props": {
-                  "class": "text-neutral-400",
+                  "class": "text-neutral-400 line-clamp-4",
                 },
                 "ref": null,
                 "scopeId": null,
@@ -820,29 +831,30 @@ VueWrapper {
               to="/what-are-micro-frontends"
             >
               <div
-                class="flex flex-col md:flex-row gap-4"
+                class="flex flex-col gap-4 bg-white/10 w-full rounded-md hover:scale-105 transition-transform"
               >
                 <nuxtimg
                   alt="O que são micro frontends"
-                  class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+                  class="bg-neutral-500 h-[170px] rounded-t-md"
+                  fit="cover"
+                  format="webp"
+                  height="170px"
+                  loading="lazy"
                   provider="cloudinary"
+                  quality="80"
                   src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png"
+                  width="100%"
                 />
                 <div
-                  class="flex flex-col"
+                  class="flex flex-col px-2 pb-6 text-center"
                 >
                   <span
-                    class="text-red-400"
-                  >
-                    Post
-                  </span>
-                  <span
-                    class="text-xl font-medium mb-2"
+                    class="text-xl font-medium mb-2 line-clamp-1"
                   >
                     O que são micro frontends
                   </span>
                   <p
-                    class="text-neutral-400"
+                    class="text-neutral-400 line-clamp-4"
                   >
                     O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
                   </p>
@@ -870,7 +882,7 @@ VueWrapper {
           "suspense": null,
           "suspenseId": 0,
           "type": {
-            "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/CardPost/index.vue",
+            "__file": "/Users/gabrielcaiana/www/projects/website/components/CardPost/index.vue",
             "__name": "index",
             "components": {},
             "props": {
@@ -915,29 +927,30 @@ VueWrapper {
           to="/what-are-micro-frontends"
         >
           <div
-            class="flex flex-col md:flex-row gap-4"
+            class="flex flex-col gap-4 bg-white/10 w-full rounded-md hover:scale-105 transition-transform"
           >
             <nuxtimg
               alt="O que são micro frontends"
-              class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+              class="bg-neutral-500 h-[170px] rounded-t-md"
+              fit="cover"
+              format="webp"
+              height="170px"
+              loading="lazy"
               provider="cloudinary"
+              quality="80"
               src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png"
+              width="100%"
             />
             <div
-              class="flex flex-col"
+              class="flex flex-col px-2 pb-6 text-center"
             >
               <span
-                class="text-red-400"
-              >
-                Post
-              </span>
-              <span
-                class="text-xl font-medium mb-2"
+                class="text-xl font-medium mb-2 line-clamp-1"
               >
                 O que são micro frontends
               </span>
               <p
-                class="text-neutral-400"
+                class="text-neutral-400 line-clamp-4"
               >
                 O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
               </p>
@@ -970,7 +983,7 @@ VueWrapper {
         "targetAnchor": null,
         "transition": null,
         "type": {
-          "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/CardPost/index.vue",
+          "__file": "/Users/gabrielcaiana/www/projects/website/components/CardPost/index.vue",
           "__name": "index",
           "components": {},
           "props": {
@@ -1057,29 +1070,30 @@ VueWrapper {
           to="/what-are-micro-frontends"
         >
           <div
-            class="flex flex-col md:flex-row gap-4"
+            class="flex flex-col gap-4 bg-white/10 w-full rounded-md hover:scale-105 transition-transform"
           >
             <nuxtimg
               alt="O que são micro frontends"
-              class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+              class="bg-neutral-500 h-[170px] rounded-t-md"
+              fit="cover"
+              format="webp"
+              height="170px"
+              loading="lazy"
               provider="cloudinary"
+              quality="80"
               src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png"
+              width="100%"
             />
             <div
-              class="flex flex-col"
+              class="flex flex-col px-2 pb-6 text-center"
             >
               <span
-                class="text-red-400"
-              >
-                Post
-              </span>
-              <span
-                class="text-xl font-medium mb-2"
+                class="text-xl font-medium mb-2 line-clamp-1"
               >
                 O que são micro frontends
               </span>
               <p
-                class="text-neutral-400"
+                class="text-neutral-400 line-clamp-4"
               >
                 O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
               </p>
@@ -1124,9 +1138,10 @@ VueWrapper {
     "mixin": [Function],
     "mount": [Function],
     "provide": [Function],
+    "runWithContext": [Function],
     "unmount": [Function],
     "use": [Function],
-    "version": "3.2.45",
+    "version": "3.4.14",
   },
   "__setProps": [Function],
   "cleanUpCallbacks": [
@@ -1312,29 +1327,30 @@ VueWrapper {
     to="/what-are-micro-frontends"
   >
     <div
-      class="flex flex-col md:flex-row gap-4"
+      class="flex flex-col gap-4 bg-white/10 w-full rounded-md hover:scale-105 transition-transform"
     >
       <nuxtimg
         alt="O que são micro frontends"
-        class="w-100 md:min-w-[300px] md:w-[300px] h-[150px] bg-neutral-500 rounded-md object-cover"
+        class="bg-neutral-500 h-[170px] rounded-t-md"
+        fit="cover"
+        format="webp"
+        height="170px"
+        loading="lazy"
         provider="cloudinary"
+        quality="80"
         src="https://res.cloudinary.com/gabrielcaiana/image/upload/f_auto,q_auto/gabrielcaiana-site/example-microfrontends.png"
+        width="100%"
       />
       <div
-        class="flex flex-col"
+        class="flex flex-col px-2 pb-6 text-center"
       >
         <span
-          class="text-red-400"
-        >
-          Post
-        </span>
-        <span
-          class="text-xl font-medium mb-2"
+          class="text-xl font-medium mb-2 line-clamp-1"
         >
           O que são micro frontends
         </span>
         <p
-          class="text-neutral-400"
+          class="text-neutral-400 line-clamp-4"
         >
           O termo Micro Frontends surgiu pela primeira vez no ThoughtWorks Technology Radar no final de 2016. Ele estende os conceitos de microsserviços para o mundo do frontend.
         </p>

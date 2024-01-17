@@ -1,4 +1,4 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`Header > should render Header 1`] = `
 VueWrapper {
@@ -12,44 +12,32 @@ VueWrapper {
       data-v-app=""
     >
       <header
-        class="pt-8 pb-4 px-6 text-white border-b border-neutral-800 flex justify-between items-center"
+        class="container mx-auto pt-8 pb-4 px-6 md:px-0 text-white flex justify-between items-center"
       >
         <nuxt-link
-          class="font-medium"
+          class="font-bold text-xl gradient-text"
           to="/"
         >
           Gabriel Caiana
         </nuxt-link>
         <div
-          class="flex gap-3"
+          class="flex gap-4"
         >
-          <a
-            href="https://github.com/gabrielcaiana"
-            target="_blank"
+          <nuxt-link
+            to="/"
           >
-            <icon
-              name="ph:github-logo-fill"
-              size="24"
-            />
-          </a>
-          <a
-            href="https://twitter.com/gabriel_caiana"
-            target="_blank"
+            Início
+          </nuxt-link>
+          <nuxt-link
+            to="/blog"
           >
-            <icon
-              name="ph:twitter-logo-fill"
-              size="24"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/gabrielcaiana/"
-            target="_blank"
+            Blog
+          </nuxt-link>
+          <nuxt-link
+            to="/about"
           >
-            <icon
-              name="ph:linkedin-logo-fill"
-              size="24"
-            />
-          </a>
+            Sobre mim
+          </nuxt-link>
         </div>
       </header>
     </div>,
@@ -121,6 +109,7 @@ VueWrapper {
       "asyncDep": null,
       "asyncResolved": false,
       "attrs": {},
+      "attrsProxy": null,
       "bc": null,
       "bm": null,
       "bu": null,
@@ -144,24 +133,29 @@ VueWrapper {
       "directives": null,
       "ec": null,
       "effect": ReactiveEffect {
+        "_depsLength": 3,
+        "_dirtyLevel": 0,
+        "_runnings": 0,
+        "_shouldSchedule": false,
+        "_trackId": 1,
         "active": true,
         "allowRecurse": true,
         "deps": [
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
-          Set {
-            [Circular],
+          Map {
+            [Circular] => 1,
           },
         ],
         "fn": [Function],
         "onTrack": undefined,
         "onTrigger": undefined,
-        "parent": undefined,
         "scheduler": [Function],
+        "trigger": [Function],
       },
       "emit": [Function],
       "emitsOptions": null,
@@ -194,29 +188,34 @@ VueWrapper {
       "rtc": null,
       "rtg": null,
       "scope": EffectScope {
-        "active": true,
+        "_active": true,
         "cleanups": [],
         "detached": true,
         "effects": [
           ReactiveEffect {
+            "_depsLength": 3,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
             "active": true,
             "allowRecurse": true,
             "deps": [
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
-              Set {
-                [Circular],
+              Map {
+                [Circular] => 1,
               },
             ],
             "fn": [Function],
             "onTrack": undefined,
             "onTrigger": undefined,
-            "parent": undefined,
             "scheduler": [Function],
+            "trigger": [Function],
           },
         ],
         "parent": undefined,
@@ -226,6 +225,7 @@ VueWrapper {
         "VTU_COMPONENT": {},
       },
       "slots": {},
+      "slotsProxy": null,
       "sp": null,
       "subTree": {
         "__v_isVNode": true,
@@ -282,6 +282,7 @@ VueWrapper {
           "asyncDep": null,
           "asyncResolved": false,
           "attrs": {},
+          "attrsProxy": null,
           "bc": null,
           "bm": null,
           "bu": null,
@@ -294,14 +295,19 @@ VueWrapper {
           "directives": null,
           "ec": null,
           "effect": ReactiveEffect {
+            "_depsLength": 0,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
             "active": true,
             "allowRecurse": true,
             "deps": [],
             "fn": [Function],
             "onTrack": undefined,
             "onTrigger": undefined,
-            "parent": undefined,
             "scheduler": [Function],
+            "trigger": [Function],
           },
           "emit": [Function],
           "emitsOptions": null,
@@ -330,19 +336,24 @@ VueWrapper {
           "rtc": null,
           "rtg": null,
           "scope": EffectScope {
-            "active": true,
+            "_active": true,
             "cleanups": [],
             "detached": true,
             "effects": [
               ReactiveEffect {
+                "_depsLength": 0,
+                "_dirtyLevel": 0,
+                "_runnings": 0,
+                "_shouldSchedule": false,
+                "_trackId": 1,
                 "active": true,
                 "allowRecurse": true,
                 "deps": [],
                 "fn": [Function],
                 "onTrack": undefined,
                 "onTrigger": undefined,
-                "parent": undefined,
                 "scheduler": [Function],
+                "trigger": [Function],
               },
             ],
             "parent": undefined,
@@ -350,6 +361,7 @@ VueWrapper {
           "setupContext": null,
           "setupState": {},
           "slots": {},
+          "slotsProxy": null,
           "sp": null,
           "subTree": {
             "__v_isVNode": true,
@@ -389,7 +401,7 @@ VueWrapper {
                     "target": null,
                     "targetAnchor": null,
                     "transition": null,
-                    "type": Symbol(Text),
+                    "type": Symbol(v-txt),
                   },
                 ],
                 "component": null,
@@ -398,7 +410,7 @@ VueWrapper {
                 "dynamicChildren": null,
                 "dynamicProps": null,
                 "el": <nuxt-link
-                  class="font-medium"
+                  class="font-bold text-xl gradient-text"
                   to="/"
                 >
                   Gabriel Caiana
@@ -406,7 +418,7 @@ VueWrapper {
                 "key": null,
                 "patchFlag": 0,
                 "props": {
-                  "class": "font-medium",
+                  "class": "font-bold text-xl gradient-text",
                   "to": "/",
                 },
                 "ref": null,
@@ -439,25 +451,19 @@ VueWrapper {
                         "__v_skip": true,
                         "anchor": null,
                         "appContext": null,
-                        "children": null,
+                        "children": "Início",
                         "component": null,
                         "ctx": [Circular],
                         "dirs": null,
                         "dynamicChildren": null,
                         "dynamicProps": null,
-                        "el": <icon
-                          name="ph:github-logo-fill"
-                          size="24"
-                        />,
+                        "el": Início,
                         "key": null,
                         "patchFlag": 0,
-                        "props": {
-                          "name": "ph:github-logo-fill",
-                          "size": "24",
-                        },
+                        "props": null,
                         "ref": null,
                         "scopeId": null,
-                        "shapeFlag": 1,
+                        "shapeFlag": 8,
                         "slotScopeIds": null,
                         "ssContent": null,
                         "ssFallback": null,
@@ -466,7 +472,7 @@ VueWrapper {
                         "target": null,
                         "targetAnchor": null,
                         "transition": null,
-                        "type": "Icon",
+                        "type": Symbol(v-txt),
                       },
                     ],
                     "component": null,
@@ -474,20 +480,15 @@ VueWrapper {
                     "dirs": null,
                     "dynamicChildren": null,
                     "dynamicProps": null,
-                    "el": <a
-                      href="https://github.com/gabrielcaiana"
-                      target="_blank"
+                    "el": <nuxt-link
+                      to="/"
                     >
-                      <icon
-                        name="ph:github-logo-fill"
-                        size="24"
-                      />
-                    </a>,
+                      Início
+                    </nuxt-link>,
                     "key": null,
                     "patchFlag": 0,
                     "props": {
-                      "href": "https://github.com/gabrielcaiana",
-                      "target": "_blank",
+                      "to": "/",
                     },
                     "ref": null,
                     "scopeId": null,
@@ -500,7 +501,7 @@ VueWrapper {
                     "target": null,
                     "targetAnchor": null,
                     "transition": null,
-                    "type": "a",
+                    "type": "nuxt-link",
                   },
                   {
                     "__v_isVNode": true,
@@ -513,25 +514,19 @@ VueWrapper {
                         "__v_skip": true,
                         "anchor": null,
                         "appContext": null,
-                        "children": null,
+                        "children": "Blog",
                         "component": null,
                         "ctx": [Circular],
                         "dirs": null,
                         "dynamicChildren": null,
                         "dynamicProps": null,
-                        "el": <icon
-                          name="ph:twitter-logo-fill"
-                          size="24"
-                        />,
+                        "el": Blog,
                         "key": null,
                         "patchFlag": 0,
-                        "props": {
-                          "name": "ph:twitter-logo-fill",
-                          "size": "24",
-                        },
+                        "props": null,
                         "ref": null,
                         "scopeId": null,
-                        "shapeFlag": 1,
+                        "shapeFlag": 8,
                         "slotScopeIds": null,
                         "ssContent": null,
                         "ssFallback": null,
@@ -540,7 +535,7 @@ VueWrapper {
                         "target": null,
                         "targetAnchor": null,
                         "transition": null,
-                        "type": "Icon",
+                        "type": Symbol(v-txt),
                       },
                     ],
                     "component": null,
@@ -548,20 +543,15 @@ VueWrapper {
                     "dirs": null,
                     "dynamicChildren": null,
                     "dynamicProps": null,
-                    "el": <a
-                      href="https://twitter.com/gabriel_caiana"
-                      target="_blank"
+                    "el": <nuxt-link
+                      to="/blog"
                     >
-                      <icon
-                        name="ph:twitter-logo-fill"
-                        size="24"
-                      />
-                    </a>,
+                      Blog
+                    </nuxt-link>,
                     "key": null,
                     "patchFlag": 0,
                     "props": {
-                      "href": "https://twitter.com/gabriel_caiana",
-                      "target": "_blank",
+                      "to": "/blog",
                     },
                     "ref": null,
                     "scopeId": null,
@@ -574,7 +564,7 @@ VueWrapper {
                     "target": null,
                     "targetAnchor": null,
                     "transition": null,
-                    "type": "a",
+                    "type": "nuxt-link",
                   },
                   {
                     "__v_isVNode": true,
@@ -587,25 +577,19 @@ VueWrapper {
                         "__v_skip": true,
                         "anchor": null,
                         "appContext": null,
-                        "children": null,
+                        "children": "Sobre mim",
                         "component": null,
                         "ctx": [Circular],
                         "dirs": null,
                         "dynamicChildren": null,
                         "dynamicProps": null,
-                        "el": <icon
-                          name="ph:linkedin-logo-fill"
-                          size="24"
-                        />,
+                        "el": Sobre mim,
                         "key": null,
                         "patchFlag": 0,
-                        "props": {
-                          "name": "ph:linkedin-logo-fill",
-                          "size": "24",
-                        },
+                        "props": null,
                         "ref": null,
                         "scopeId": null,
-                        "shapeFlag": 1,
+                        "shapeFlag": 8,
                         "slotScopeIds": null,
                         "ssContent": null,
                         "ssFallback": null,
@@ -614,7 +598,7 @@ VueWrapper {
                         "target": null,
                         "targetAnchor": null,
                         "transition": null,
-                        "type": "Icon",
+                        "type": Symbol(v-txt),
                       },
                     ],
                     "component": null,
@@ -622,20 +606,15 @@ VueWrapper {
                     "dirs": null,
                     "dynamicChildren": null,
                     "dynamicProps": null,
-                    "el": <a
-                      href="https://www.linkedin.com/in/gabrielcaiana/"
-                      target="_blank"
+                    "el": <nuxt-link
+                      to="/about"
                     >
-                      <icon
-                        name="ph:linkedin-logo-fill"
-                        size="24"
-                      />
-                    </a>,
+                      Sobre mim
+                    </nuxt-link>,
                     "key": null,
                     "patchFlag": 0,
                     "props": {
-                      "href": "https://www.linkedin.com/in/gabrielcaiana/",
-                      "target": "_blank",
+                      "to": "/about",
                     },
                     "ref": null,
                     "scopeId": null,
@@ -648,7 +627,7 @@ VueWrapper {
                     "target": null,
                     "targetAnchor": null,
                     "transition": null,
-                    "type": "a",
+                    "type": "nuxt-link",
                   },
                 ],
                 "component": null,
@@ -657,40 +636,28 @@ VueWrapper {
                 "dynamicChildren": null,
                 "dynamicProps": null,
                 "el": <div
-                  class="flex gap-3"
+                  class="flex gap-4"
                 >
-                  <a
-                    href="https://github.com/gabrielcaiana"
-                    target="_blank"
+                  <nuxt-link
+                    to="/"
                   >
-                    <icon
-                      name="ph:github-logo-fill"
-                      size="24"
-                    />
-                  </a>
-                  <a
-                    href="https://twitter.com/gabriel_caiana"
-                    target="_blank"
+                    Início
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/blog"
                   >
-                    <icon
-                      name="ph:twitter-logo-fill"
-                      size="24"
-                    />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/gabrielcaiana/"
-                    target="_blank"
+                    Blog
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/about"
                   >
-                    <icon
-                      name="ph:linkedin-logo-fill"
-                      size="24"
-                    />
-                  </a>
+                    Sobre mim
+                  </nuxt-link>
                 </div>,
                 "key": null,
                 "patchFlag": 0,
                 "props": {
-                  "class": "flex gap-3",
+                  "class": "flex gap-4",
                 },
                 "ref": null,
                 "scopeId": null,
@@ -712,50 +679,38 @@ VueWrapper {
             "dynamicChildren": [],
             "dynamicProps": null,
             "el": <header
-              class="pt-8 pb-4 px-6 text-white border-b border-neutral-800 flex justify-between items-center"
+              class="container mx-auto pt-8 pb-4 px-6 md:px-0 text-white flex justify-between items-center"
             >
               <nuxt-link
-                class="font-medium"
+                class="font-bold text-xl gradient-text"
                 to="/"
               >
                 Gabriel Caiana
               </nuxt-link>
               <div
-                class="flex gap-3"
+                class="flex gap-4"
               >
-                <a
-                  href="https://github.com/gabrielcaiana"
-                  target="_blank"
+                <nuxt-link
+                  to="/"
                 >
-                  <icon
-                    name="ph:github-logo-fill"
-                    size="24"
-                  />
-                </a>
-                <a
-                  href="https://twitter.com/gabriel_caiana"
-                  target="_blank"
+                  Início
+                </nuxt-link>
+                <nuxt-link
+                  to="/blog"
                 >
-                  <icon
-                    name="ph:twitter-logo-fill"
-                    size="24"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/gabrielcaiana/"
-                  target="_blank"
+                  Blog
+                </nuxt-link>
+                <nuxt-link
+                  to="/about"
                 >
-                  <icon
-                    name="ph:linkedin-logo-fill"
-                    size="24"
-                  />
-                </a>
+                  Sobre mim
+                </nuxt-link>
               </div>
             </header>,
             "key": null,
             "patchFlag": 0,
             "props": {
-              "class": "pt-8 pb-4 px-6 text-white border-b border-neutral-800 flex justify-between items-center",
+              "class": "container mx-auto pt-8 pb-4 px-6 md:px-0 text-white flex justify-between items-center",
             },
             "ref": null,
             "scopeId": null,
@@ -773,7 +728,7 @@ VueWrapper {
           "suspense": null,
           "suspenseId": 0,
           "type": {
-            "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/header/index.vue",
+            "__file": "/Users/gabrielcaiana/www/projects/website/components/header/index.vue",
             "components": {},
             "render": [Function],
           },
@@ -789,44 +744,32 @@ VueWrapper {
         "dynamicChildren": null,
         "dynamicProps": null,
         "el": <header
-          class="pt-8 pb-4 px-6 text-white border-b border-neutral-800 flex justify-between items-center"
+          class="container mx-auto pt-8 pb-4 px-6 md:px-0 text-white flex justify-between items-center"
         >
           <nuxt-link
-            class="font-medium"
+            class="font-bold text-xl gradient-text"
             to="/"
           >
             Gabriel Caiana
           </nuxt-link>
           <div
-            class="flex gap-3"
+            class="flex gap-4"
           >
-            <a
-              href="https://github.com/gabrielcaiana"
-              target="_blank"
+            <nuxt-link
+              to="/"
             >
-              <icon
-                name="ph:github-logo-fill"
-                size="24"
-              />
-            </a>
-            <a
-              href="https://twitter.com/gabriel_caiana"
-              target="_blank"
+              Início
+            </nuxt-link>
+            <nuxt-link
+              to="/blog"
             >
-              <icon
-                name="ph:twitter-logo-fill"
-                size="24"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/gabrielcaiana/"
-              target="_blank"
+              Blog
+            </nuxt-link>
+            <nuxt-link
+              to="/about"
             >
-              <icon
-                name="ph:linkedin-logo-fill"
-                size="24"
-              />
-            </a>
+              Sobre mim
+            </nuxt-link>
           </div>
         </header>,
         "key": null,
@@ -851,7 +794,7 @@ VueWrapper {
         "targetAnchor": null,
         "transition": null,
         "type": {
-          "__file": "/Users/gabrielcaiana/www/Frontend/nuxt3/website/components/header/index.vue",
+          "__file": "/Users/gabrielcaiana/www/projects/website/components/header/index.vue",
           "components": {},
           "render": [Function],
         },
@@ -909,44 +852,32 @@ VueWrapper {
         "dynamicChildren": null,
         "dynamicProps": null,
         "el": <header
-          class="pt-8 pb-4 px-6 text-white border-b border-neutral-800 flex justify-between items-center"
+          class="container mx-auto pt-8 pb-4 px-6 md:px-0 text-white flex justify-between items-center"
         >
           <nuxt-link
-            class="font-medium"
+            class="font-bold text-xl gradient-text"
             to="/"
           >
             Gabriel Caiana
           </nuxt-link>
           <div
-            class="flex gap-3"
+            class="flex gap-4"
           >
-            <a
-              href="https://github.com/gabrielcaiana"
-              target="_blank"
+            <nuxt-link
+              to="/"
             >
-              <icon
-                name="ph:github-logo-fill"
-                size="24"
-              />
-            </a>
-            <a
-              href="https://twitter.com/gabriel_caiana"
-              target="_blank"
+              Início
+            </nuxt-link>
+            <nuxt-link
+              to="/blog"
             >
-              <icon
-                name="ph:twitter-logo-fill"
-                size="24"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/gabrielcaiana/"
-              target="_blank"
+              Blog
+            </nuxt-link>
+            <nuxt-link
+              to="/about"
             >
-              <icon
-                name="ph:linkedin-logo-fill"
-                size="24"
-              />
-            </a>
+              Sobre mim
+            </nuxt-link>
           </div>
         </header>,
         "key": null,
@@ -987,9 +918,10 @@ VueWrapper {
     "mixin": [Function],
     "mount": [Function],
     "provide": [Function],
+    "runWithContext": [Function],
     "unmount": [Function],
     "use": [Function],
-    "version": "3.2.45",
+    "version": "3.4.14",
   },
   "__setProps": [Function],
   "cleanUpCallbacks": [
@@ -1172,44 +1104,32 @@ VueWrapper {
     "VTU_COMPONENT": {},
   },
   "wrapperElement": <header
-    class="pt-8 pb-4 px-6 text-white border-b border-neutral-800 flex justify-between items-center"
+    class="container mx-auto pt-8 pb-4 px-6 md:px-0 text-white flex justify-between items-center"
   >
     <nuxt-link
-      class="font-medium"
+      class="font-bold text-xl gradient-text"
       to="/"
     >
       Gabriel Caiana
     </nuxt-link>
     <div
-      class="flex gap-3"
+      class="flex gap-4"
     >
-      <a
-        href="https://github.com/gabrielcaiana"
-        target="_blank"
+      <nuxt-link
+        to="/"
       >
-        <icon
-          name="ph:github-logo-fill"
-          size="24"
-        />
-      </a>
-      <a
-        href="https://twitter.com/gabriel_caiana"
-        target="_blank"
+        Início
+      </nuxt-link>
+      <nuxt-link
+        to="/blog"
       >
-        <icon
-          name="ph:twitter-logo-fill"
-          size="24"
-        />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/gabrielcaiana/"
-        target="_blank"
+        Blog
+      </nuxt-link>
+      <nuxt-link
+        to="/about"
       >
-        <icon
-          name="ph:linkedin-logo-fill"
-          size="24"
-        />
-      </a>
+        Sobre mim
+      </nuxt-link>
     </div>
   </header>,
 }
