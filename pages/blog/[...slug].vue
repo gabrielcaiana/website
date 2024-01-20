@@ -14,7 +14,7 @@ useContentHead(page)
       <h1 class="text-4xl mb-6">{{ data.title }}</h1>
       <p class="text-xl">{{ data.description }}</p>
       <NuxtImg
-        class="mb-[64px]"
+        class="mb-[64px] w-full"
         provider="cloudinary"
         :src="data.img"
         loading="lazy"
