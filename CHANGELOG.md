@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/gabrielcaiana/website/compare/v1.5.1...v1.5.2) (2024-01-20)
+
+
+### Performance Improvements
+
+* update libs ([b3533e7](https://github.com/gabrielcaiana/website/commit/b3533e760eca4393e584a0074b3d2286d71998a8))
+
 ## [1.5.1](https://github.com/gabrielcaiana/website/compare/v1.5.0...v1.5.1) (2023-10-10)
 
 
