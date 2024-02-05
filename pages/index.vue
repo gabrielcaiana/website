@@ -19,11 +19,6 @@ const social = [
     icon: 'tabler:brand-twitter',
   },
   {
-    name: 'linkedin',
-    url: 'https://www.linkedin.com/in/gabrielcaiana/',
-    icon: 'tabler:brand-linkedin',
-  },
-  {
     name: 'github',
     url: 'https://github.com/gabrielcaiana',
     icon: 'tabler:brand-github',

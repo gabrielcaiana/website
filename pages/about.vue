@@ -59,11 +59,6 @@ useHead({
           >
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/gabrielcaiana/" target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-        <li>
           <a href="mailto:gabrielcaianaguedes@gmail.com" target="_blank"
             >Email</a
           >

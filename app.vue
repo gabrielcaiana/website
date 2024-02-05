@@ -40,7 +40,6 @@ useHead({
         jobTitle: 'Desenvolvedor Front-end',
         url: 'https://gabrielcaiana.com',
         sameAs: [
-          'https://www.linkedin.com/in/gabrielcaiana',
           'https://github.com/gabrielcaiana',
           'https://twitter.com/gabriel_caiana',
         ],
